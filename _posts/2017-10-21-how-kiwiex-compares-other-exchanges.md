@@ -4,7 +4,7 @@ title: How KIWI Exchange compares to other exchanges
 tags: [industry]
 ---
 
-> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/">Kieran Elby</a> for UbiTok.io which he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
+> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for UbiTok.io which he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
 
 One question we are often asked is how UbiTok.io compares to other exchanges - particularly to the decentralized EtherDelta, or to the exchange protocol 0x, or to centralized exchanges like GDAX or Poloniex.
 
