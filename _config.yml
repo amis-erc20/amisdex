@@ -3,7 +3,7 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "https://exchange.kiwi.io"
+url: "http://exchange.thekiwi.io"
 baseurl: "/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
@@ -18,7 +18,7 @@ description: the official KIWI exchange powered by Ethereum
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://exchange.kiwi.io"
+  Home: "http://exchange.thekiwi.io"
   Blog: "blog"
   Exchange: "products"
   Help: "help"
@@ -86,7 +86,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "ubitok.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "exchange.thekiwi.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
