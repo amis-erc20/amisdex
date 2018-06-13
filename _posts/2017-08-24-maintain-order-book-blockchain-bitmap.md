@@ -5,6 +5,8 @@ subtitle: Introducing the price bitmap technique used to help match orders entir
 tags: [how-it-works]
 ---
 
+> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/">Kieran Elby</a> for UbiTok.io which he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
+
 In our first UbiTok.io blog post, I'm going to introduce the technique we've developed to efficiently maintain an order book entirely on the Ethereum blockchain, including performing best execution matching.
 
 | Bids  | Asks |
@@ -83,7 +85,7 @@ function walkBookSideFrom(uint16 priceStart)
         public constant returns (uint count) {
 
   // figure out which bit of which word we start from
-  
+
   uint wordIndex = priceStart / 256;
   uint bitIndex = priceStart % 256;
 
@@ -98,7 +100,7 @@ function walkBookSideFrom(uint16 priceStart)
   uint word = occupiedPriceBitmaps[wordIndex] >> bitIndex;
 
   uint16 priceIndex; // we reconstruct the price when needed
-  
+
   // loop through from the start word up to the penultimate one
 
   while (wordIndex < wordEnd) {
