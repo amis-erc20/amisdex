@@ -3,22 +3,22 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "https://ubitok.io"
+url: "https://exchange.kiwi.io"
 baseurl: "/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: UbiTok.io
+title: KIWI Exchange
 
 # Short description of your site
-description: the unstoppable Ethereum exchange
+description: the official KIWI exchange powered by Ethereum
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://ubitok.io"
+  Home: "https://exchange.kiwi.io"
   Blog: "blog"
   Exchange: "products"
   Help: "help"
@@ -37,8 +37,8 @@ title-img: "/img/ubitok-logo.svg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Bonnag Limited
-  email: "help@ubitok.io"
+  name: Liberation Online
+  email: "help@liberation.online"
   facebook: yourname  # eg. daattali
   github: bonnag/ubitok.io    # eg. daattali
   twitter: ubitok_io   # eg. daattali
