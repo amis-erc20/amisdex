@@ -5,6 +5,8 @@ subtitle: Making it easy for clients to get started sending transactions
 tags: [dapp-developers]
 ---
 
+> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/">Kieran Elby</a> for UbiTok.io which he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
+
 At UbiTok.io, the unstoppable Ethereum exchange, we want to make it as easy as possible for clients to start trading (without compromising on security).
 
 Being totally decentralized, UbiTok.io doesn't have any sign-up or verification, so ideally new clients should be able to turn up, deposit and buy in minutes.
