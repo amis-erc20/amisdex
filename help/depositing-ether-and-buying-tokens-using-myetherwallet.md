@@ -4,7 +4,7 @@ title: Tutorial
 subtitle: Depositing Ether and Buying Tokens using MyEtherWallet
 ---
 
-In this tutorial, we're going to deposit Ether into UbiTok.io and use it to buy OMG tokens.
+In this tutorial, we're going to deposit Ether into KIWI Exchange and use it to buy OMG tokens.
 
 This version of the tutorial assumes you have a wallet on [MyEtherWallet.com](https://www.myetherwallet.com/) you want to use.
 
@@ -12,11 +12,11 @@ If you don't want to use MyEtherWallet, we have another [version for MetaMask us
 
 ### Choosing MyEtherWallet
 
-First, make sure you've unlocked your MyEtherWallet wallet on the [MyEtherWallet Send Ether & Tokens](https://www.myetherwallet.com/#send-transaction) page and know which address you will use with UbiTok.io.
+First, make sure you've unlocked your MyEtherWallet wallet on the [MyEtherWallet Send Ether & Tokens](https://www.myetherwallet.com/#send-transaction) page and know which address you will use with KIWI Exchange.
 
 The address will need enough Ether for your deposit, plus a little extra (say 0.05 ETH) to cover gas fees.
 
-Go to the UbiTok.io pair you want to buy - in our case [OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH) - and when asked "How should UbiTok.io send Ethereum transactions?", choose "Tell me what to send via MyEtherWallet" and copy-and-paste your MyEtherWallet Account Address.
+Go to the pair you want to buy - in our case [OMG-ETH](http://exchange.thekiwi.io/exchange/?pairId=OMG-ETH) - and when asked "How should KIWI Exchange send Ethereum transactions?", choose "Tell me what to send via MyEtherWallet" and copy-and-paste your MyEtherWallet Account Address.
 
 Here's a little video showing what to do:
 
@@ -24,13 +24,13 @@ Here's a little video showing what to do:
 
 ### Depositing Ether
 
-Now UbiTok.io knows to use your MyEtherWallet account, you should see your Ethereum address balance appear as an "External" ETH balance in UbiTok.io.
+Now KIWI Exchange knows to use your MyEtherWallet account, you should see your Ethereum address balance appear as an "External" ETH balance in KIWI Exchange.
 
-In order to use your Ether to buy tokens, you'll need to deposit it into the UbiTok.io book contract. Note that each pair is a separate contract.
+In order to use your Ether to buy tokens, you'll need to deposit it into the KIWI Exchange book contract. Note that each pair is a separate contract.
 
 Use the "[+ Dep]" button next to your ETH balance to bring up the Deposit ETH form.
 
-When you click the "Deposit Eth" button, UbiTok.io will not send anything - instead it will tell you what to send.
+When you click the "Deposit Eth" button, KIWI Exchange will not send anything - instead it will tell you what to send.
 
 You'll need to copy-and-paste the details (address, amount, gas and data) into MyEtherWallet, then generate and send the transaction in MyEtherWallet.
 
@@ -45,7 +45,7 @@ Tips:
  - You can check the progress of your transaction using the "Transaction History" in MyEtherWallet;
  - MyEtherWallet might show a error while you're filling in the form - this will go away once the gas and data are complete.
 
-After the transaction has completed, you should see your "Exchange" ETH balance on UbiTok.io increase (and your "External" balance decrease).
+After the transaction has completed, you should see your "Exchange" ETH balance on KIWI Exchange increase (and your "External" balance decrease).
 
 ### Buying Tokens
 
@@ -55,7 +55,7 @@ We'll make sure 'Buy OMG' is selected, enter the number of tokens we want to buy
 
 "Good Till Cancel" means that even if the offer we saw disappears, our order to buy will still stand - it will be added to the book and (hopefully) filled by someone else. If we don't want that, we could choose "Immediate or Cancel". Full details of terms and order statuses are covered in our [Trading Rules](../../trading-rules).
 
-When you click 'Place Buy Order', UbiTok.io will will not send anything - instead it will tell you what to send.
+When you click 'Place Buy Order', KIWI Exchange will will not send anything - instead it will tell you what to send.
 
 You'll need to copy-and-paste the details (address, amount, gas and data) into MyEtherWallet, then generate and send the transaction in MyEtherWallet.
 

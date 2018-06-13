@@ -4,7 +4,7 @@ title: Tutorial
 subtitle: Depositing Tokens and Selling them using MetaMask
 ---
 
-In this tutorial, we're going to deposit ERC20 Tokens into UbiTok.io and sell them for Ether.
+In this tutorial, we're going to deposit ERC20 Tokens into KIWI Exchange and sell them for Ether.
 
 This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/).
 
@@ -18,21 +18,21 @@ To give you the idea, we've made a little video showing the process from start t
 
 ### Choosing MetaMask
 
-First, make sure you've unlocked your MetaMask account by entering your password and selected the address you want to use with UbiTok.io.
+First, make sure you've unlocked your MetaMask account by entering your password and selected the address you want to use with KIWI Exchange.
 
 The address will need enough tokens for your deposit, plus a little Ether (say 0.05 ETH) to cover gas fees.
 
-Go to the UbiTok.io pair you want to sell - in our case [OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH) - and when asked "How should UbiTok.io send Ethereum transactions?", choose MetaMask.
+Go to the pair you want to sell - in our case [OMG-ETH](http://exchange.thekiwi.io/exchange/?pairId=OMG-ETH) - and when asked "How should KIWI Exchange send Ethereum transactions?", choose MetaMask.
 
-You might need to reload the UbiTok.io web page after unlocking your MetaMask account - sometimes it doesn't detect it straight away.
+You might need to reload the KIWI Exchange web page after unlocking your MetaMask account - sometimes it doesn't detect it straight away.
 
 ### Depositing Tokens - Steps
 
-Now UbiTok.io knows to use your MetaMask account, you should see your Ethereum address balance appear as an "External" ETH balance in UbiTok.io.
+Now KIWI Exchange knows to use your MetaMask account, you should see your Ethereum address balance appear as an "External" ETH balance in KIWI Exchange.
 
 Your OMG balance will also appear as an "External" OMG balance. Your "Exchange" balance will likely be zero though.
 
-In order to sell your OMG on UbiTok.io, you'll need to deposit them into the UbiTok.io book contract. Note that each pair is a separate contract.
+In order to sell your OMG on KIWI Exchange, you'll need to deposit them into the KIWI Exchange book contract. Note that each pair is a separate contract.
 
 Use the "[+ Dep]" button next to your OMG balance to bring up the Deposit OMG form.
 

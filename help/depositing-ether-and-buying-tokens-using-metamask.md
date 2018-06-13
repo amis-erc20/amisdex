@@ -4,7 +4,7 @@ title: Tutorial
 subtitle: Depositing Ether and Buying Tokens using MetaMask
 ---
 
-In this tutorial, we're going to deposit Ether into UbiTok.io and use it to buy OMG tokens.
+In this tutorial, we're going to deposit Ether into KIWI Exchange and use it to buy OMG tokens.
 
 This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/).
 
@@ -12,13 +12,13 @@ If you don't want to (or can't) use MetaMask, we have another [version for MyEth
 
 ### Choosing MetaMask
 
-First, make sure you've unlocked your MetaMask account by entering your password and selected the address you want to use with UbiTok.io.
+First, make sure you've unlocked your MetaMask account by entering your password and selected the address you want to use with KIWI Exchange.
 
 The address will need enough Ether for your deposit, plus a little extra (say 0.05 ETH) to cover gas fees.
 
-Go to the UbiTok.io pair you want to buy - in our case [OMG-ETH](http://ubitok.io/exchange/?pairId=OMG-ETH) - and when asked "How should UbiTok.io send Ethereum transactions?", choose MetaMask.
+Go to the pair you want to buy - in our case [OMG-ETH](http://exchange.thekiwi.io/exchange/?pairId=OMG-ETH) - and when asked "How should KIWI Exchange send Ethereum transactions?", choose MetaMask.
 
-You might need to reload the UbiTok.io web page after unlocking your MetaMask account - sometimes it doesn't detect it straight away.
+You might need to reload the KIWI Exchange web page after unlocking your MetaMask account - sometimes it doesn't detect it straight away.
 
 Here's a little video showing what to do:
 
@@ -26,9 +26,9 @@ Here's a little video showing what to do:
 
 ### Depositing Ether
 
-Now UbiTok.io knows to use your MetaMask account, you should see your Ethereum address balance appear as an "External" ETH balance in UbiTok.io.
+Now KIWI Exchange knows to use your MetaMask account, you should see your Ethereum address balance appear as an "External" ETH balance in KIWI Exchange.
 
-In order to use your Ether to buy tokens, you'll need to deposit it into the UbiTok.io book contract. Note that each pair is a separate contract.
+In order to use your Ether to buy tokens, you'll need to deposit it into the KIWI Exchange book contract. Note that each pair is a separate contract.
 
 Use the "[+ Dep]" button next to your ETH balance to bring up the Deposit ETH form.
 
@@ -42,7 +42,7 @@ Tips:
  - Make sure you leave some Ether in your account since you'll need it to pay gas fees;
  - When the Ethereum network is busy, transactions can take a while - increasing the "gas price" on the Confirm Transaction dialog can help (at the cost of paying a higher fee);
 
-After the transaction has completed, you should see your "Exchange" ETH balance on UbiTok.io increase (and your "External" balance decrease).
+After the transaction has completed, you should see your "Exchange" ETH balance on KIWI Exchange increase (and your "External" balance decrease).
 
 ### Buying Tokens
 
