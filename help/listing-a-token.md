@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Listing new Tokens on UbiTok.io
+title: Listing new Tokens on KIWI Exchange
 ---
 
 ~~We're happy to list most tokens on KIWI Exchange~~
