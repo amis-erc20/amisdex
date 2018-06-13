@@ -38,10 +38,10 @@ avatar: "/img/kiwi-logo.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Liberation Online
-  email: "help@liberation.online"
+  email: "contact@thekiwi.online"
   facebook: yourname  # eg. daattali
-  github: bonnag/ubitok.io    # eg. daattali
-  twitter: ubitok_io   # eg. daattali
+  github: liberation-online/exchange.thekiwi.io    # eg. daattali
+  twitter: thekiwitoken   # eg. daattali
   reddit: yourname    # NO LONGER USED - WE HAVE A subreddit
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourname  # eg. daattali
