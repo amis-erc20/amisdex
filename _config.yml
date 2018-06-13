@@ -30,7 +30,7 @@ avatar: "/img/kiwi-logo.png"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # annoyingly baseurl doesn't work here
-title-img: "/img/ubitok-logo.svg"
+#title-img: "/img/ubitok-logo.svg"
 
 # --- Footer options --- #
 
