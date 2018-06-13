@@ -20,7 +20,7 @@ description: the official KIWI exchange powered by Ethereum
 navbar-links:
   Home: "http://exchange.thekiwi.io"
   Blog: "blog"
-  Exchange: "products"
+  #Exchange: "products"
   Help: "help"
 
 # Image to show in the navigation bar - image must be a square (width = height)
