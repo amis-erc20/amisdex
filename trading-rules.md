@@ -61,15 +61,15 @@ This mostly affects very large orders at a generous price - the exchange UI will
 
 ### Fees
 
-A fee of 0.05% of the matched amount is deducted from the amount the taker receives from each trade. For buy orders, the fee is in the base currency; for sell orders it is in the counter currency. The maker (provider of liquidity) pays no fees.
+A fee of 0.2% of the matched amount is deducted from the amount the taker receives from each trade. For buy orders, the fee is in the base currency; for sell orders it is in the counter currency. The maker (provider of liquidity) pays no fees.
 
-Example 1: The FOO/ETH Book has an offer to sell 10,000 FOO @ 1.50. You place an order to buy 2000 FOO @ 1.50, which costs you 3000 ETH. You are the taker on this trade, so you pay a fee of 1 FOO (0.05% of 2000) and receive the remaining 1999 FOO.
+Example 1: The FOO/ETH Book has an offer to sell 10,000 FOO @ 1.50. You place an order to buy 2000 FOO @ 1.50, which costs you 3000 ETH. You are the taker on this trade, so you pay a fee of 4 FOO (0.2% of 2000) and receive the remaining 1996 FOO.
 
-Example 2: You place an order to buy 200 FOO @ 1.50, which costs you 300 ETH. It is not matched and rests on the book. Another client places an order to sell 1000 FOO @ 1.50, of which 200 FOO (300 ETH) can be matched with you. They are the taker, so they pay a fee of 0.15 ETH (0.05% of 300), and receive the remaining 299.85 ETH. You receive the full 200 FOO.
+Example 2: You place an order to buy 200 FOO @ 1.50, which costs you 300 ETH. It is not matched and rests on the book. Another client places an order to sell 1000 FOO @ 1.50, of which 200 FOO (300 ETH) can be matched with you. They are the taker, so they pay a fee of 0.6 ETH (0.2% of 300), and receive the remaining 299.4 ETH. You receive the full 200 FOO.
 
 Alternatively, and not yet available, KIWI Tokens (KIWI) can be used instead of ETH (at a fixed exchange rate) to pay KIWI Exchange fees on all markets that have ETH as a currency (base or counter).
 
-Example 3: You prefer to pay fees using your KIWI tokens, so you deposit 200 KIWI into the FOO/ETH book contract to cover future fees. You then sell some FOO tokens for 100 ETH. Instead of 0.05 ETH being deducted from your 100 ETH, 50 KIWI is deducted from your UBI balance.
+Example 3: You prefer to pay fees using your KIWI tokens, so you deposit 200 KIWI into the FOO/ETH book contract to cover future fees. You then sell some FOO tokens for 100 ETH. Instead of 0.2 ETH being deducted from your 100 ETH, KIWI is deducted from your KIWI Exchange balance at 0.1% fee - **NOTE: This feature is not available yet.**
 
 Fees paid by traders are held in the book contract on behalf of the contract creator.
 
@@ -81,7 +81,7 @@ Fees paid by traders are held in the book contract on behalf of the contract cre
 |Withdraw Eth|none|100,000|
 |Withdraw Token|none|100,000|
 |Place Order (Maker-Only)|none|300,000|
-|Place Order (GTC / IoC)|0.05% of liquidity taken|300,000 + 100,000 for each order matched|
+|Place Order (GTC / IoC)|0.2% of liquidity taken|300,000 + 100,000 for each order matched|
 |Cancel Order|none|150,000|
 
 ### Order Lifecycle
