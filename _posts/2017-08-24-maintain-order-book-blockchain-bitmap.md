@@ -7,7 +7,7 @@ tags: [how-it-works]
 
 > This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for UbiTok.io which he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
 
-In our first UbiTok.io blog post, I'm going to introduce the technique we've developed to efficiently maintain an order book entirely on the Ethereum blockchain, including performing best execution matching.
+In our first blog post, I'm going to introduce the technique we've developed to efficiently maintain an order book entirely on the Ethereum blockchain, including performing best execution matching.
 
 | Bids  | Asks |
 | ----- | ---- |
@@ -68,7 +68,7 @@ For example, suppose we have an open sell order at a price of 1.23. It turns out
 
 By using this bitmap technique we can cheaply record and check which prices have orders and quickly skip to a particular price. We can also walk through adjacent prices without having to read from storage - we just look at different bits in the word we already read.
 
-Here's some solidity code - slightly simplified from the [real contract](https://github.com/bonnag/ubitok-contracts/blob/master/contracts/BookERC20EthV1.sol) - showing the idea:
+Here's some solidity code - slightly simplified from the [real contract](https://github.com/liberation-online/kiwiexchange-contracts/blob/master/contracts/BookERC20EthV1p1.sol) - showing the idea:
 
 ```Solidity
 
@@ -136,5 +136,3 @@ function walkBookSideFrom(uint16 priceStart)
 
 
 Of course, we still have to record the orders at each price - more about that in a future post.
-
-We don't have a comments section, but you can discuss this post on [reddit.com/r/ethdev](https://www.reddit.com/r/ethdev/comments/6vudvj/maintaining_an_order_book_entirely_onchain_using/).

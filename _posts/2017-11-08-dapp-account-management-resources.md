@@ -7,11 +7,11 @@ tags: [dapp-developers]
 
 > This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for UbiTok.io which he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
 
-At UbiTok.io, the unstoppable Ethereum exchange, we want to make it as easy as possible for clients to start trading (without compromising on security).
+At KIWI Exchange, we want to make it as easy as possible for clients to start trading (without compromising on security).
 
-Being totally decentralized, UbiTok.io doesn't have any sign-up or verification, so ideally new clients should be able to turn up, deposit and buy in minutes.
+Being totally decentralized, KIWI Exchange doesn't have any sign-up or verification, so ideally new clients should be able to turn up, deposit and buy in minutes.
 
-Instead of sign-up, the most important part for a decentralized app ("DApp") like UbiTok.io is how clients can safely let the DApp send Ethereum transactions from their Ethereum address, in our case to buy and sell tokens on the exchange.
+Instead of sign-up, the most important part for a decentralized app ("DApp") like KIWI Exchange is how clients can safely let the DApp send Ethereum transactions from their Ethereum address, in our case to buy and sell tokens on the exchange.
 
 In an ideal world, everyone would use a nice browser extension like MetaMask, and DApps could just rely on that, but in practice there's at least five different ways clients want to send transactions:
 
@@ -21,7 +21,7 @@ In an ideal world, everyone would use a nice browser extension like MetaMask, an
  4. Hardware Wallet (Ledger, Trezor)
  5. Imported Private Key / Keystore JSON / Mnemonic
 
-Right now (Nov 2017) UbiTok.io supports the first three - but we'd really like to offer clients the choice of improved security from hardware wallets and the more integrated experience possible with an imported private key.
+Right now, KIWI Exchange supports the first three - but we'd really like to offer clients the choice of improved security from hardware wallets and the more integrated experience possible with an imported private key.
 
 It would be great if there was some sort of magical Javascript library that DApp authors could drop in to provide functionality like:
 
