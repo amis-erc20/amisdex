@@ -21,7 +21,7 @@ subtitle: books offered on the exchange.thekiwi.io exchange
 
 ## Products To Be Added
 
-[Contact us if you'd like a particular token added](/help/listing-a-token/).
+Contact us if [here](/help/listing-a-token/) you'd like a particular token added.
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
