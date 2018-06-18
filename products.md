@@ -4,14 +4,22 @@ title: Products
 subtitle: books offered on the exchange.thekiwi.io exchange
 ---
 
-## Products
+## Test Products
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|[KIWI-ETH](http://exchange.kiwi.io/exchange/?pairId=AXYS-ETH)|[Axys](https://www.axysblockchain.co/)|hospitality|
-|[BOLD-ETH](http://exchange.kiwi.io/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
+|[DEMO-ETH](http://exchange.thekiwi.io/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
+|[TESTR-ETH](http://exchange.thekiwi.io/exchange/?pairId=TESTR-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
+|[TESTI-ETH](http://exchange.thekiwi.io/exchange/?pairId=TESTI-ETH&vu=1)|n/a|play-money book on "Rinkeby" testnet|
 
-## Live Products
+## Products Available At Launch
+
+|Book|CoinMarketCap / Website|Description|
+|------|----|----|
+|[KIWI-ETH](http://exchange.kiwi.io/exchange/?pairId=KIWI-ETH)|[Axys](https://thekiwi.online/)|the KIWI|
+|[OXBTC-ETH](http://exchange.kiwi.io/exchange/?pairId=OXBTC-ETH)|[Bold](http://0xbitcoin.org/)|mined bitcoin-like token|
+
+## Products To Be Added
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
@@ -37,13 +45,5 @@ subtitle: books offered on the exchange.thekiwi.io exchange
 |[TDM-ETH](http://exchange.kiwi.io/exchange/?pairId=TDM-ETH)|[Token of Digital Money](http://tokenofdigitalmoney.com/)|currency|
 |[WOCO-ETH](http://exchange.kiwi.io/exchange/?pairId=WOCO-ETH)|[WomenCoin](http://womencoin.udo.tattoo/)|currency|
 |[YOLO-ETH](http://exchange.kiwi.io/exchange/?pairId=YOLO-ETH)|[YOLOCOIN](https://www.ethyolo.com/)|first Filipino cryptocurrency|
-
-## Test Products
-
-|Book|CoinMarketCap / Website|Description|
-|------|----|----|
-|[DEMO-ETH](http://exchange.thekiwi.io/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
-|[TESTR-ETH](http://exchange.thekiwi.io/exchange/?pairId=TESTR-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
-|[TESTI-ETH](http://exchange.thekiwi.io/exchange/?pairId=TESTI-ETH&vu=1)|n/a|play-money book on "Rinkeby" testnet|
 
 [Do contact us if you'd like a particular token added](/help/listing-a-token/).
