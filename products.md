@@ -16,15 +16,15 @@ subtitle: books offered on the exchange.thekiwi.io exchange
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|[KIWI-ETH](http://exchange.thekiwi.io/exchange/?pairId=KIWI-ETH)|[The KIWI Token](https://thekiwi.online/)|the KIWI|
-|[OXBTC-ETH](http://exchange.thekiwi.io/exchange/?pairId=OXBTC-ETH)|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
+|KIWI-ETH|[The KIWI Token](https://thekiwi.online/)|the KIWI|
+|OXBTC-ETH|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
 
 ## Products To Be Added
+
+[Contact us if you'd like a particular token added](/help/listing-a-token/).
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 |SALT-ETH|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
 |STORJ-ETH|[Storj](https://coinmarketcap.com/assets/storj/)|storage|
-
-[Do contact us if you'd like a particular token added](/help/listing-a-token/).
