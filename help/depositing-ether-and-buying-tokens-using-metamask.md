@@ -4,7 +4,7 @@ title: Tutorial
 subtitle: Depositing Ether and Buying Tokens using MetaMask
 ---
 
-In this tutorial, we're going to deposit Ether into KIWI Exchange and use it to buy OMG tokens.
+In this tutorial, we're going to deposit Ether into KIWI Exchange and use it to buy KIWI tokens.
 
 This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/).
 
