@@ -16,8 +16,8 @@ subtitle: books offered on the exchange.thekiwi.io exchange
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|[KIWI-ETH](http://exchange.kiwi.io/exchange/?pairId=KIWI-ETH)|[Axys](https://thekiwi.online/)|the KIWI|
-|[OXBTC-ETH](http://exchange.kiwi.io/exchange/?pairId=OXBTC-ETH)|[Bold](http://0xbitcoin.org/)|mined bitcoin-like token|
+|[KIWI-ETH](http://exchange.kiwi.io/exchange/?pairId=KIWI-ETH)|[The KIWI Token](https://thekiwi.online/)|the KIWI|
+|[OXBTC-ETH](http://exchange.kiwi.io/exchange/?pairId=OXBTC-ETH)|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
 
 ## Products To Be Added
 
