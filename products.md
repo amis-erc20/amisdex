@@ -26,5 +26,7 @@ Contact us if [here](/help/listing-a-token/) you'd like a particular token added
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
-|SALT-ETH|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
-|STORJ-ETH|[Storj](https://coinmarketcap.com/assets/storj/)|storage|
+|BAT-ETH|[SALT](https://coinmarketcap.com/currencies/basic-attention-token/)|advertising|
+|MKR-ETH|[SALT](https://coinmarketcap.com/currencies/maker/)|Governace Token for Maker|
+|REQ-ETH|[SALT](https://coinmarketcap.com/currencies/request-network/)|decentralised payments|
+|ZRX-ETH|[SALT](https://coinmarketcap.com/currencies/0x/)|Governance Token for 0xProject|
