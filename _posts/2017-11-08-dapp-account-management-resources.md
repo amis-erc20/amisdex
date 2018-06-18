@@ -5,7 +5,7 @@ subtitle: Making it easy for clients to get started sending transactions
 tags: [dapp-developers]
 ---
 
-> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for UbiTok.io which he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
+> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
 
 At KIWI Exchange, we want to make it as easy as possible for clients to start trading (without compromising on security).
 
