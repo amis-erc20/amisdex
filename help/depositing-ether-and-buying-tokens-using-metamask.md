@@ -16,13 +16,9 @@ First, make sure you've unlocked your MetaMask account by entering your password
 
 The address will need enough Ether for your deposit, plus a little extra (say 0.05 ETH) to cover gas fees.
 
-Go to the pair you want to buy - in our case [OMG-ETH](http://exchange.thekiwi.io/exchange/?pairId=OMG-ETH) - and when asked "How should KIWI Exchange send Ethereum transactions?", choose MetaMask.
+Go to the pair you want to buy - in our case [KIWI-ETH](http://exchange.thekiwi.io/exchange/?pairId=KIWI-ETH) - and when asked "How should KIWI Exchange send Ethereum transactions?", choose MetaMask.
 
 You might need to reload the KIWI Exchange web page after unlocking your MetaMask account - sometimes it doesn't detect it straight away.
-
-Here's a little video showing what to do:
-
-![Connecting with MetaMask Video](../connect-with-metamask.gif)
 
 ### Depositing Ether
 
@@ -34,10 +30,6 @@ Use the "[+ Dep]" button next to your ETH balance to bring up the Deposit ETH fo
 
 When you click 'Deposit ETH', MetaMask will pop-up its "Confirm Transaction" dialog - check the details look sensible and click Confirm.
 
-Here's a video:
-
-![Depositing Ether with MetaMask Video](../buy-tokens-with-metamask.gif)
-
 Tips:
  - Make sure you leave some Ether in your account since you'll need it to pay gas fees;
  - When the Ethereum network is busy, transactions can take a while - increasing the "gas price" on the Confirm Transaction dialog can help (at the cost of paying a higher fee);
@@ -46,18 +38,15 @@ After the transaction has completed, you should see your "Exchange" ETH balance 
 
 ### Buying Tokens
 
-Now we have an "Exchange" ETH balance, we're going to use it to buy 4 OMG tokens, taking the price of 0.0330 we can see offered in the "Ask" side of the book.
+Now we have an "Exchange" ETH balance, we're going to use it to buy 100000 KIWI tokens.
 
-We'll make sure 'Buy OMG' is selected, enter the number of tokens we want to buy in the amount box, fill in the price box by clicking the price we want, then choose the default terms of "Good Till Cancel (no gas topup)".
+We'll make sure 'Buy KIWI' is selected, enter the number of tokens we want to buy in the amount box, fill in the price box by clicking the price we want, then choose the default terms of "Good Till Cancel (no gas topup)".
 
 "Good Till Cancel" means that even if the offer we saw disappears, our order to buy will still stand - it will be added to the book and (hopefully) filled by someone else. If we don't want that, we could choose "Immediate or Cancel". Full details of terms and order statuses are covered in our [Trading Rules](../../trading-rules).
 
 When we click 'Place Buy Order', MetaMask will pop-up its "Confirm Transaction" screen - check the details look sensible and click Confirm.
 
-Here comes the video:
 
-![Buy Tokens with MetaMask Video](../buy-tokens-with-metamask.gif)
-
-Finally, you should have 0.3998 OMG in your "Exchange" OMG balance (after the teeny 0.0002 OMG fee). Click "[- Wtd]" button to withdraw to your MetaMask account.
+Finally, you should have 9800 KIWI in your "Exchange" KIWI balance (after the teeny (0.2%) 200 KIWI fee). Click "[- Wtd]" button to withdraw to your MetaMask account.
 
 Congratulations - you're an unstoppable trader now!

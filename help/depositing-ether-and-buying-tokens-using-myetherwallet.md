@@ -4,7 +4,7 @@ title: Tutorial
 subtitle: Depositing Ether and Buying Tokens using MyEtherWallet
 ---
 
-In this tutorial, we're going to deposit Ether into KIWI Exchange and use it to buy OMG tokens.
+In this tutorial, we're going to deposit Ether into KIWI Exchange and use it to buy KIWI tokens.
 
 This version of the tutorial assumes you have a wallet on [MyEtherWallet.com](https://www.myetherwallet.com/) you want to use.
 
@@ -16,11 +16,8 @@ First, make sure you've unlocked your MyEtherWallet wallet on the [MyEtherWallet
 
 The address will need enough Ether for your deposit, plus a little extra (say 0.05 ETH) to cover gas fees.
 
-Go to the pair you want to buy - in our case [OMG-ETH](http://exchange.thekiwi.io/exchange/?pairId=OMG-ETH) - and when asked "How should KIWI Exchange send Ethereum transactions?", choose "Tell me what to send via MyEtherWallet" and copy-and-paste your MyEtherWallet Account Address.
+Go to the pair you want to buy - in our case [KIWI-ETH](http://exchange.thekiwi.io/exchange/?pairId=KIWI-ETH) - and when asked "How should KIWI Exchange send Ethereum transactions?", choose "Tell me what to send via MyEtherWallet" and copy-and-paste your MyEtherWallet Account Address.
 
-Here's a little video showing what to do:
-
-![Connecting with MyEtherWallet Video](../connect-with-mew.gif)
 
 ### Depositing Ether
 
@@ -36,10 +33,6 @@ You'll need to copy-and-paste the details (address, amount, gas and data) into M
 
 Make sure to include the "Data" - you might need to click "+ Advanced: Add Data" in MyEtherWallet.
 
-Here's a video:
-
-![Depositing Ether with MyEtherWallet Video](../deposit-ether-with-mew.gif)
-
 Tips:
  - Make sure you leave some Ether in your account since you'll need it to pay gas fees;
  - You can check the progress of your transaction using the "Transaction History" in MyEtherWallet;
@@ -49,9 +42,9 @@ After the transaction has completed, you should see your "Exchange" ETH balance 
 
 ### Buying Tokens
 
-Now we have an "Exchange" ETH balance, we're going to use it to buy 4 OMG tokens, taking the price of 0.0330 we can see offered in the "Ask" side of the book.
+Now we have an "Exchange" ETH balance, we're going to use it to buy 100000 KIWI tokens.
 
-We'll make sure 'Buy OMG' is selected, enter the number of tokens we want to buy in the amount box, fill in the price box by clicking the price we want, then choose the default terms of "Good Till Cancel (no gas topup)".
+We'll make sure 'Buy KIWI' is selected, enter the number of tokens we want to buy in the amount box, fill in the price box by clicking the price we want, then choose the default terms of "Good Till Cancel (no gas topup)".
 
 "Good Till Cancel" means that even if the offer we saw disappears, our order to buy will still stand - it will be added to the book and (hopefully) filled by someone else. If we don't want that, we could choose "Immediate or Cancel". Full details of terms and order statuses are covered in our [Trading Rules](../../trading-rules).
 
@@ -63,6 +56,6 @@ Here comes the video:
 
 ![TODO - Buy Tokens with MyEtherWallet Video](../buy-tokens-with-mew.gif)
 
-Finally, you should have 0.3998 OMG in your "Exchange" OMG balance (after the teeny 0.0002 OMG fee). Click "[- Wtd]" button to withdraw to your MyEtherWallet account.
+Finally, you should have 9800 KIWI in your "Exchange" KIWI balance (after the teeny (0.2%) 200 KIWI fee). Click "[- Wtd]" button to withdraw to your MyEtherWallet account.
 
 Congratulations - you're an unstoppable trader now!
