@@ -21,8 +21,6 @@ subtitle: books offered on the exchange.thekiwi.io exchange
 
 ## Products To Be Added
 
-Contact us if [here](/help/listing-a-token/) you'd like a particular token added.
-
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |OMG-ETH|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|Banking|
@@ -30,3 +28,5 @@ Contact us if [here](/help/listing-a-token/) you'd like a particular token added
 |MKR-ETH|[Maker](https://coinmarketcap.com/currencies/maker/)|Governace Token for Maker|
 |REQ-ETH|[Request Network](https://coinmarketcap.com/currencies/request-network/)|Decentralised payments|
 |ZRX-ETH|[0x Project](https://coinmarketcap.com/currencies/0x/)|Governance Token for 0xProject|
+
+Contact us if [here](/help/listing-a-token/) you'd like a particular token added.
