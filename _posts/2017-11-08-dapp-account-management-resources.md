@@ -51,5 +51,3 @@ Unfortunately, unless we're missing something, there's no library that quite doe
 [MyEtherWallet Source](https://github.com/kvhnuke/etherwallet/tree/mercury/app/scripts/staticJS) - Not a library as such, but the splendid folks at MyEtherWallet make their code available under a permissive license which allows us to take a little peek at how they do a great job of handling lots of wallet types ...
 
 [ethers.js](https://github.com/ethers-io/ethers.js) - Similar to web3.js, has more wallet management built in and a nicer API. Part of the [ethers.io](https://docs.ethers.io/ethers-app/html/) system to make building DApps easier.
-
-We'd love to hear about other DApp developers' experiences in this area, and any libraries we've missed ... we've started a [reddit thread here](https://www.reddit.com/r/ethdev/comments/7bpngr/offering_choice_of_wallets_like_metamask_trezor/).
