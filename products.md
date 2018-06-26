@@ -9,7 +9,7 @@ subtitle: books offered on the exchange.thekiwi.io exchange
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[DEMO-ETH](http://exchange.thekiwi.io/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
-|KIWITEST-ETH](http://exchange.thekiwi.io/exchange/?pairId=KIWITEST-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
+|[KIWITEST-ETH](http://exchange.thekiwi.io/exchange/?pairId=KIWITEST-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
 
 ## Products Available At Launch
 
