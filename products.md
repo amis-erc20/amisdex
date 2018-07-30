@@ -16,7 +16,7 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|AMIS-ETH|[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
+|AMIS-ETH|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |KIWI-ETH|[The KIWI Token](https://thekiwi.online/)|the KIWI|
 |OXBTC-ETH|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
 
