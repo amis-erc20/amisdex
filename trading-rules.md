@@ -14,9 +14,9 @@ A Limit Order lets you set your own price when buying or selling.
 
 KIWI Exchange guarantees Best Execution - for example, if you enter an order to buy at a price of 1.30, and there's an existing order in the book to sell at 1.25, you'll get the better (for you) price of 1.25. If your order matches several resting orders in the book, price-time priority is applied to decide which orders get matched first.
 
-The size of the order is always specified in the base currency internally (whether buying or selling). For example, on an UBI/ETH book where UBI tokens are being bought and sold for Ether, you would enter the number of UBI tokens you want to buy or sell.
+The size of the order is always specified in the base currency internally (whether buying or selling). For example, on an KIWI/ETH book where KIWI tokens are being bought and sold for Ether, you would enter the number of KIWI tokens you want to buy or sell.
 
-Most limit orders can be partially filled - this can happen if, say, you enter an order to buy 10,000 UBI but only 4,000 UBI are available at the price you want.
+Most limit orders can be partially filled - this can happen if, say, you enter an order to buy 10,000 KIWI but only 4,000 KIWI are available at the price you want.
 
 ### Market Orders and Stop Orders
 
@@ -42,7 +42,7 @@ However, one downside is that running code on the Ethereum blockchain is slow an
 
 We've done our best to keep gas usage of our smart contract as low as possible. It can still use a lot of gas if you place an order that matches a large number of resting orders on the book.
 
-For example, if the book contains a hundred different open orders to sell 1 UBI token each @ 2.0, and you place an order to buy 100 UBI @ 2.0, your order will match those other 100 orders - that's 101 clients who need to be paid.
+For example, if the book contains a hundred different open orders to sell 1 KIWI token each @ 2.0, and you place an order to buy 100 KIWI @ 2.0, your order will match those other 100 orders - that's 101 clients who need to be paid.
 
 To let you stay in control of gas costs (and avoid running out of gas), we limit the number of matches allowed when placing a new order (there's no limit for orders already in the book). It works like this:
 - For Immediate or Cancel orders, the remaining unfilled portion of the order is cancelled if the limit is reached;
