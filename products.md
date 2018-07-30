@@ -1,20 +1,22 @@
 ---
 layout: page
 title: Products
-subtitle: books offered on the exchange.thekiwi.io exchange
+subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 ---
 
 ## Test Products
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|[DEMO-ETH](http://exchange.thekiwi.io/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
-|[KIWITEST-ETH](http://exchange.thekiwi.io/exchange/?pairId=KIWITEST-ETH)|n/a|play-money book on "Ropsten" testnet|
+|[DEMO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
+|[KIWITEST-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=KIWITEST-ETH)|n/a|play-money book on "Ropsten" testnet|
+|[AMIS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|n/a|play-money book on "Ropsten" testnet|
 
 ## Products Available At Launch
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
+|AMIS-ETH|[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |KIWI-ETH|[The KIWI Token](https://thekiwi.online/)|the KIWI|
 |OXBTC-ETH|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
 
