@@ -8,6 +8,7 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 
 |amisdex.github.io/amis-exchange-www Book|CoinMarketCap / Website|Description|
 |------|----|----|
+|[AMIS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|[AMIS](https://www.github.com/amisolution/ERC20-AMIS/)|Asset Management|
 |[AXYS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AXYS-ETH)|[Axys](https://www.axysblockchain.co/)|hospitality|
 |[BOLD-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=BOLD-ETH)|[Bold](http://www.boldtoken.io/)|decentralized, strong, rewarding|
 |[BTCL-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=BTCL-ETH)|[BTC LITE](http://btclite.org/)|currency|
@@ -36,6 +37,9 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |amisdex.github.io/amis-exchange-www Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |ETH-BTCU|Coming soon - full reserve tokens|Bitcoin asset token|
+|ETH-AMIS|Coming soon - full reserve tokens|Bitcoin asset token|
+|ETH-DAI|Coming soon - full reserve tokens|Bitcoin asset token|
+|AMIS-DAI|Coming soon - full reserve tokens|Bitcoin asset token|
 
 ## Test Products
 

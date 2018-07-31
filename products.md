@@ -30,4 +30,4 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |REQ-ETH|[Request Network](https://coinmarketcap.com/currencies/request-network/)|Decentralised payments|
 |ZRX-ETH|[0x Project](https://coinmarketcap.com/currencies/0x/)|Governance Token for 0xProject|
 
-Contact us if [here](/help/listing-a-token/) you'd like a particular token added.
+Contact us if [here](https://amisdex.github.io/amis-exchange-www/help/listing-a-token/) you'd like a particular token added.
