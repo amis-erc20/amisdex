@@ -62,4 +62,4 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |POWR-ETH|[PowerLedger](https://coinmarketcap.com/currencies/power-ledger/)|electricity|
 |SNT-ETH|[Status](https://coinmarketcap.com/assets/status/)|mobile|
 
-[Do contact us if you'd like a particular token added](/help/listing-a-token/).
+[Do contact us if you'd like a particular token added](https://github.com/AmisDEX/amis-exchange-www/issues).
