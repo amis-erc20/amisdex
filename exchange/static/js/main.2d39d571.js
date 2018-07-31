@@ -28551,7 +28551,7 @@
                 symbol: "AMIS",
                 decimals: 9,
                 name: "AMIS",
-                address: "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+                address: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 abiArray: s,
                 minInitialSize: "0.001"
             },
