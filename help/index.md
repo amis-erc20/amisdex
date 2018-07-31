@@ -16,7 +16,7 @@ title: Help!
 
 ### About Us, Roadmap, and More
 
- - [Our Homepage](/) should cover most other questions ...
+ - [Our Homepage](https://amisolution.github.io/ERC20-AMIS) should cover most other questions ...
 
 ### Getting Support
 
