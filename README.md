@@ -10,9 +10,9 @@ https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#co
 
 
 Ropsten
-https://ropsten.etherscan.io/address/0xb64d5d9242dd2d506d50f1505fc61b140b8be61e#writeContract  BookERC20EthV1Dec
-https://ropsten.etherscan.io/address/0xcb87fe167673507da5f21da9202ebf94d8f36d8d Current BookERC20EthV1
-https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#writeContract UbiRewardToken
+- https://ropsten.etherscan.io/address/0xb64d5d9242dd2d506d50f1505fc61b140b8be61e#writeContract  BookERC20EthV1Dec Testing OK except reject orders
+- https://ropsten.etherscan.io/address/0xcb87fe167673507da5f21da9202ebf94d8f36d8d Current BookERC20EthV1 - Testing OK
+https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#writeContract CRSWUbiRewardToken
 
 Mainnet
 https://etherscan.io/address/0x5d914f9b70a44baaefa547981945649799a77869#code BookERC20EthV1p1y
