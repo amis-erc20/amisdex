@@ -28454,9 +28454,9 @@
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
-                decimals: 18,
+                decimals: 9,
                 name: "AMIS (Ropsten TEST)",
-                address: "  0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3",
+                address: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 abiArray: s,
                 minInitialSize: "0.001"
             },
@@ -28469,10 +28469,10 @@
             },
             rwrd: {
                 tradableType: "ERC20",
-                symbol: "UBI",
+                symbol: "CRSW",
                 decimals: 18,
-                name: "Test UbiTok.io Reward Token",
-                address: "0x5cfad634865157a5a988d743e6fcb4514e655460",
+                name: "CRSW Token",
+                address: "0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488",
                 abiArray: s
             }
         },
