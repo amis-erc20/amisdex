@@ -28447,10 +28447,10 @@
         },
         "AMISTEST-ETH": {
             networkId: "3",
-            bookAddress: "0xb64d5d9242dd2d506d50f1505fc61b140b8be61e",
+            bookAddress: "0xcb87fe167673507da5f21da9202ebf94d8f36d8d",
             bookAbiArray: a,
             symbol: "AMIS-ETH",
-            priceRangeAdjustment: 0,
+            priceRangeAdjustment: -3,
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
@@ -28458,7 +28458,7 @@
                 name: "AMIS (Ropsten TEST)",
                 address: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 abiArray: s,
-                minInitialSize: "0.001"
+                minInitialSize: "1000"
             },
             cntr: {
                 tradableType: "Ether",
