@@ -46,6 +46,7 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |amisdex.github.io/amis-exchange-www Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[DEMO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
+|[AMIS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
 |[TESTR-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTR-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
 |[TESTI-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTI-ETH&vu=1)|n/a|play-money book on "Rinkeby" testnet|
 
