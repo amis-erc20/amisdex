@@ -5,7 +5,7 @@ subtitle: Introducing the price bitmap technique used to help match orders entir
 tags: [how-it-works]
 ---
 
-> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference AMIS Exchange, but all credit for this article belongs to Kieran.
+> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference Ubitok.io as AMIS Exchange would not exist otherwise, but all credit for this article belongs to Kieran.
 
 In our first blog post, I'm going to introduce the technique we've developed to efficiently maintain an order book entirely on the Ethereum blockchain, including performing best execution matching.
 
