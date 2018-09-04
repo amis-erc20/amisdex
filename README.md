@@ -40,6 +40,12 @@ https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#co
 - Ropsten Reward Token
 https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#writeContract CRSWUbiRewardToken
 
+Try it out [http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH), it's free to practisce, it requires Metamask extension's switched to Ropsten network. Get some fake ropsten ETH here=> [faucet.metmask.io](https://faucet.metmask.io)
+
 ## Mainnet
-https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code OnChainOrderBookV012b  
-https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code ORA Incentivized Reward Token
+
+If you feel satisfied why not try the live mainnet HERE=> [http://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH)
+
+It uses these contracts:
+- https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code OnChainOrderBookV012b  
+- https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code ORA Incentivized Reward Token
