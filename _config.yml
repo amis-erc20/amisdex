@@ -3,22 +3,22 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "http://amisdex.github.io/amis-exchange-www"
-baseurl: "/"
+url: "http://amis-erc20.github.io/amisdex"
+baseurl: "/amisdex/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: AMIS Exchange
+title: AMIS Dex Exchange
 
 # Short description of your site
-description: the official AMIS exchange powered by Ethereum
+description: Official AMIS exchange Dex featuring on-chain orderbook with builtin order matching engine powered by Ethereum
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://amisdex.github.io/amis-exchange-www"
+  Home: "http://amis-erc20.github.io/amisdex"
   Blog: "blog"
   #Exchange: "products"
   Help: "help"
@@ -86,7 +86,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "amisdex.github.io/amis-exchange-www"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "amis-erc20.github.io/amisdex"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
