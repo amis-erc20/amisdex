@@ -1,7 +1,9 @@
-# amis-exchange-www
-static content behind https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH
+# amisdex
+static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH
 
-git clone https://github.com/amisdex/amis-exchange-www
+git clone https://github.com/amis-erc20/amisdex
+
+contract OnChainOrderBookV012b
 
 ## OFFLINE DEMO
 
