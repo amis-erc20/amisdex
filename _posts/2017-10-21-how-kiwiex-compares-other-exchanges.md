@@ -4,7 +4,7 @@ title: How AMIS Exchange compares to other exchanges
 tags: [industry]
 ---
 
-> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference AMIS Exchange, but all credit for this article belongs to Kieran.
+> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference AMIS Exchange, but almost all credit for this article belongs to Kieran.
 
 One question we are often asked is how AMIS Exchange compares to other exchanges - particularly to the decentralized EtherDelta, or to the exchange protocol 0x, or to centralized exchanges like GDAX or Poloniex.
 
@@ -14,7 +14,7 @@ Best execution matching of limit orders gives clients a modern trading experienc
 
 Being entirely on-chain means AMIS Exchange cannot be shutdown or your funds taken - not even by its creators - as long as the Ethereum network keeps functioning.
 
-When we looked around before building AMIS Exchange, we found other decentralized exchanges tend to compromise.
+When we looked around before building AMIS DEX Exchange, we found other decentralized exchanges tend to compromise.
 
 Either they use an off-chain matching engine (meaning they are still vulnerable to downtime or regulatory action),
 or they offer a much poorer trading experience than a traditional exchange. Or, in some cases, both of those!
@@ -37,9 +37,9 @@ Here's a few notes on some of the ratings above ...
 
 ### Unstoppability
 
-This is AMIS Exchange's main selling point!
+This is AMIS DEX Exchange's UNIQUE selling point!
 
-We're big fans of EtherDelta, but it's not quite as decentralized as often thought - the order book is held on EtherDelta's servers, making it somewhat vulnerable to being shutdown due to regulatory action or DDOS attack.
+We're big fans of EtherDelta and 0x relays, but it's not quite as decentralized as often thought - the order book is held on EtherDelta's servers, making it somewhat vulnerable to being shutdown due to regulatory action or DDOS attack.
 
 Similar comments apply to 0x relayers. On the other hand, clients' coins are safely protected by a smart contract in both cases, which is a big plus.
 
@@ -88,6 +88,10 @@ Centralized exchanges have an inherent advantage in both areas for the same reas
 ### Smart Contract Clients
 
 Whether smart contracts making trades will ever be a large part of the market remains to be seen - but AMIS Exchange is one of the few venues where an Ethereum smart contract can place orders directly into an order book. A use-case might be an ICO contract running an auction.
+
+### Competition
+
+See MKR, DAI on Oasis.
 
 ### And finally
 
