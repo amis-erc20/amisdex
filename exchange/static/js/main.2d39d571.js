@@ -33025,7 +33025,7 @@
                     rel: "noopener noreferrer"
                 }, this.props.pairInfo.base.address), ".", s.a.createElement("br", null), "Careful though - never send tokens (or ether) to a token address - that's not how it works and you won't get them back.") : void 0, "TEST" === this.props.pairInfo.liveness ? s.a.createElement(u.x, {
                     bsStyle: "info"
-                }, s.a.createElement("strong", null, "This is a test token!!"), s.a.createElement("br", null), s.a.createElement("br", null), "You will need ROPSTEN ETH to be able to make trades. You can come some for free from the Ropsten faucet ", s.a.createElement("a", {
+                }, s.a.createElement("strong", null, "This is a test token!!"), s.a.createElement("br", null), s.a.createElement("br", null), "You will Metamask installed on Ropsten plus some ROPSTEN ETH to be able to make trades. You can get some for free from the Ropsten metamask faucet https://faucet.metamask.io/ or HERE => ", s.a.createElement("a", {
                     href: "http://faucet.ropsten.be:3001/",
                     target: "_blank"
                 }, "here"), s.a.createElement("br", null), s.a.createElement("br", null), "The address of this token is:", s.a.createElement("a", {
