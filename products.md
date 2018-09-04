@@ -9,15 +9,31 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[DEMO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
-|[AMISTEST-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH)|n/a|play-money book on "Ropsten" testnet|
+|[AMISTEST-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
+|[KIWITEST-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=KIWITEST-ETH)|n/a|Buy and sell Kiwi on "Ropsten" testnet|
+|[TESTR-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTR-ETH)|n/a|play-money book on "Ropsten" testnet|
+|[TESTI-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTI-ETH)|n/a|play-money book on "Kovan" testnet|
+|[TEST8-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TEST8-ETH)|n/a|play-money book on "Kovan" testnet|
 
 ## Products Available At Launch
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[AMIS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
+|AXYS-ETH|[AXYS](https://thekiwi.online/)|AXYS|
+|BTCL-ETH|[BTCL](https://thekiwi.online/)|BTCL|
+|BOLD-ETH|[BOLD](https://thekiwi.online/)|BOLD|
+|EAGLE-ETH|[EAGLE](https://thekiwi.online/)|EAGLE|
+|eBTC-ETH|[eBTC](https://thekiwi.online/)|eBTC|
+|ELTCOIN-ETH|[ELTCOIN](https://thekiwi.online/)|ELTCOIN|
+|HYTV-ETH|[HYTV](https://thekiwi.online/)|HYTV|
 |KIWI-ETH|[The KIWI Token](https://thekiwi.online/)|the KIWI|
+|OMG-ETH|[OMISEGO](http:///)|OMG|
 |OXBTC-ETH|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
+|SALT-ETH|[SALT](https://thekiwi.online/)|SALT|
+|STORJ-ETH|[STORJ](https://thekiwi.online/)|STORJ|
+|YOLO-ETH|[YOLO Coin](https://thekiwi.online/)|YOLO|
+
 
 ## Products To Be Added
 
