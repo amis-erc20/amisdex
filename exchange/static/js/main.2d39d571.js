@@ -28540,12 +28540,12 @@
         },
         "AMIS-ETH": {
             networkId: "1",
-            bookAddress: "0xf8d15960aa6Aaf5972DC54cF002951553906C7bd",
-            bookAbiArray: o,
+            bookAddress: "0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048",
+            bookAbiArray: i,
             symbol: "AMIS-ETH",
-            bookStartBlock: 4402394,
-            olderVersions: ["OMG-ETH.v01"],
-            priceRangeAdjustment: 0,
+            bookStartBlock: 6268330,
+            newerVersion: "AMIS-ETH",
+            priceRangeAdjustment: -3,
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
@@ -28553,21 +28553,21 @@
                 name: "AMIS",
                 address: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 abiArray: s,
-                minInitialSize: "0.1"
+                minInitialSize: "0.001"
             },
             cntr: {
                 tradableType: "Ether",
                 symbol: "ETH",
                 decimals: 18,
                 name: "Ether",
-                minInitialSize: "0.01"
+                minInitialSize: "0.001"
             },
             rwrd: {
                 tradableType: "ERC20",
-                symbol: "UBI",
-                decimals: 18,
-                name: "UbiTok.io Reward Token",
-                address: "0xec2ca0ef7cbbb49d5305f2f85dda24a9c5eda305",
+                symbol: "ORA",
+                decimals: 9,
+                name: "Orange",
+                address: "0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3",
                 abiArray: s
             }
         },
