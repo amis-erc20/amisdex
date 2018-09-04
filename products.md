@@ -9,13 +9,14 @@ subtitle: books offered on the amis-erc20.github.io/amisdex exchange
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[DEMO-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
-|[AMISTEST-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH)|n/a|play-money book on "Ropsten" testnet|
+|[AMISTEST-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH)|n/a|Trade Amis for free on "Ropsten" testnet|
 
 ## Products Available At Launch
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[AMIS-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
+|[OMG-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|Banking|
 |KIWI-ETH|[The KIWI Token](https://thekiwi.online/)|the KIWI|
 |OXBTC-ETH|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
 
