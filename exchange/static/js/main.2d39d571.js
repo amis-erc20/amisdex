@@ -31641,7 +31641,7 @@
                     src: g.a,
                     className: "App-logo",
                     alt: "AMIS Exchange"
-                }), "- the official exchange for trading the AMIS token"), s.a.createElement(u.a, null, s.a.createElement(u.b, null, s.a.createElement(u.c, {
+                }), "- The official decentralized exchange with on-chain orderbook and built-in matching engine for trading the AMIS pair"), s.a.createElement(u.a, null, s.a.createElement(u.b, null, s.a.createElement(u.c, {
                     inverse: !0
                 }, s.a.createElement(u.d, {
                     bsStyle: "pills",
@@ -31950,7 +31950,7 @@
                 }, s.a.createElement(u.h, {
                     glyph: "remove",
                     title: "close"
-                }))), s.a.createElement("p", null, "Depositing/Withdrawing KIWI Tokens is not yet available.")), s.a.createElement(u.n.Pane, {
+                }))), s.a.createElement("p", null, "Depositing/Withdrawing AMIS Tokens is not yet available.")), s.a.createElement(u.n.Pane, {
                     eventKey: "withdrawRwrd"
                 }, s.a.createElement("p", null, s.a.createElement("b", null, "Withdraw ", this.state.pairInfo.rwrd.symbol), s.a.createElement(u.g, {
                     bsSize: "xsmall",
@@ -31964,7 +31964,7 @@
                 }, s.a.createElement(u.h, {
                     glyph: "remove",
                     title: "close"
-                }))), s.a.createElement("p", null, "Depositing/Withdrawing KIWI Tokens is not yet available.")))), s.a.createElement("h5", null, "Create Order"), s.a.createElement(u.o, {
+                }))), s.a.createElement("p", null, "Depositing/Withdrawing AMIS Tokens is not yet available.")))), s.a.createElement("h5", null, "Create Order"), s.a.createElement(u.o, {
                     activeKey: this.state.createOrderDirection,
                     onSelect: this.handleCreateOrderDirectionSelect,
                     id: "create-order-direction"
@@ -33332,7 +33332,7 @@
                 }, s.a.createElement("p", null, 'Your Ethereum account may not have enough ETH to pay for "gas" fees.'), s.a.createElement("p", null, "Gas fees are needed to send Ethereum transactions, such as when placing orders or making payments."), s.a.createElement("p", null, "Consider topping up your ", i.props.bridgeStatus.chosenAccount, " account with more Ether (", s.a.createElement("i", null, "not"), " your book contract balance).")) : void 0 : s.a.createElement(u.x, {
                     header: "Unknown Ethereum Connection Problem",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "Some unusual problem has occurred preventing AMIS Exchange connecting to the Ethereum Network."), s.a.createElement("p", null, "Try reloading this page, or contact help@thekiwi.online with details of the problem.")) : s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "Some unusual problem has occurred preventing AMIS Exchange connecting to the Ethereum Network."), s.a.createElement("p", null, "Try reloading this page, or contact us on gitchat with details of the problem.")) : s.a.createElement(u.x, {
                     header: "View Only Mode - Reload this page to choose a different way to connect to the Ethereum network.",
                     bsStyle: "info"
                 }, s.a.createElement("p", null, "You are connected to the Ethereum network as a guest, so you will not be able to make payments or place orders.")) : s.a.createElement(u.x, {
