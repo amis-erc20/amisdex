@@ -21,7 +21,7 @@ git clone https://github.com/amis-erc20/amisdex
 
 contract OnChainOrderBookV012b
 
-## OFFLINE DEMO
+## Off-chain Demo
 
 https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH
 
