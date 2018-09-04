@@ -39,7 +39,7 @@ avatar: "/img/amis-logo.png"
 author:
   name: Amisolution
   email: "contact@"
-  facebook: yourname  # eg. amisolution
+  facebook: amis.token  # eg. amisolution
   github: amisolution/ERC20-AMIS    # eg. amisolution
   twitter: amis_erc20   # eg. amisolution
   reddit: yourname    # NO LONGER USED - WE HAVE A subreddit
@@ -59,7 +59,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: false
+  facebook: true
   email: false
   twitter: true
   google-plus: true
