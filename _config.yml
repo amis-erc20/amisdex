@@ -12,7 +12,7 @@ baseurl: "/amis-exchange-www/"
 title: AMIS Exchange
 
 # Short description of your site
-description: the official AMIS exchange powered by Ethereum
+description: Official AMIS Dex exchange featuring on-chain orderbook and order matching engine powered by Ethereum Blockchain
 
 # --- Navigation bar options --- #
 
@@ -30,7 +30,7 @@ avatar: "/img/amis-logo.png"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # annoyingly baseurl doesn't work here
-#title-img: "/img/ubitok-logo.svg"
+#title-img: "/img/amis-logo.png"
 
 # --- Footer options --- #
 
@@ -58,7 +58,7 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
+  rss: true
   facebook: true
   email: false
   twitter: true
