@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 url: "http://amis-erc20.github.io/amisdex"
-baseurl: "/amisdex/"
+baseurl: "/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
