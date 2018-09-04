@@ -3,8 +3,8 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "https://amisdex.github.io/amis-exchange-www"
-baseurl: "/amis-exchange-www"
+url: "https://amisdex.github.io/"
+baseurl: "/amis-exchange-www/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
