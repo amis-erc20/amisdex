@@ -28561,11 +28561,11 @@
                 minInitialSize: "0.01"
             },
             rwrd: {
-                tradableType: "Ether",
-                symbol: "ETH",
+                tradableType: "ERC20",
+                symbol: "UBI",
                 decimals: 18,
-                name: "Test Ether (Rinkeby)",
-                address: "0x0000000000000000000000000000000000000000",
+                name: "Test Ubi Reward Token (Kovan)",
+                address: "0xB7C7D8488966BD297BAB7Ca780FB1923F982A419",
                 abiArray: s
             }
         },
