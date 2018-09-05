@@ -37,16 +37,18 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |amisdex.github.io/amis-exchange-www Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |ETH-BTCU|Coming soon - full reserve tokens|Bitcoin asset token|
-|ETH-AMIS|Coming soon - full reserve tokens|Bitcoin asset token|
-|ETH-DAI|Coming soon - full reserve tokens|Bitcoin asset token|
-|AMIS-DAI|Coming soon - full reserve tokens|Bitcoin asset token|
+|ETH-AMIS|Coming soon - full reserve tokens|Amis asset token|
+|ETH-DAI|Coming soon - full reserve tokens|Dai asset token|
+|AMIS-DAI|Coming soon - full reserve tokens|Amis asset token|
 
 ## Test Products
 
 |amisdex.github.io/amis-exchange-www Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[DEMO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
-|[AMIS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
+|[AMISTEST-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH&vu=1)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
+|[AMISTEST1-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST1-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
+|[AMISTEST2-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST2-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
 |[TESTR-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTR-ETH&vu=1)|n/a|play-money book on "Ropsten" testnet|
 |[TESTI-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTI-ETH&vu=1)|n/a|play-money book on "Rinkeby" testnet|
 
