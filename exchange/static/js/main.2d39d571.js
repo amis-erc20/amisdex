@@ -28450,7 +28450,7 @@
             bookAddress: "0x8D9c1aA79d8e58f508180E9BF16D48f42234993e",
             bookAbiArray: a,
             symbol: "AMIS-ETH",
-            priceRangeAdjustment: -3,
+            priceRangeAdjustment: 0,
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
@@ -28535,6 +28535,37 @@
                 decimals: 18,
                 name: "Test Ubi Reward Token (Rinkeby)",
                 address: "0x76316acf8c8628c6df4730492e62a36ca00995d1",
+                abiArray: s
+            }
+        },
+        "AMISK-ETH": {
+            networkId: "42",
+            bookAddress: "0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e",
+            bookAbiArray: i,
+            symbol: "AMIS-ETH",
+            priceRangeAdjustment: 0,
+            base: {
+                tradableType: "ERC20",
+                symbol: "AMIS",
+                decimals: 9,
+                name: "AMIS (Kovan)",
+                address: "0x7161f09a6ae81b546bebc04b24629c4f3dad746f",
+                abiArray: s,
+                minInitialSize: "1.0"
+            },
+            cntr: {
+                tradableType: "Ether",
+                symbol: "ETH",
+                decimals: 18,
+                name: "Test Ether (Kovan)",
+                minInitialSize: "0.01"
+            },
+            rwrd: {
+                tradableType: "Ether",
+                symbol: "ETH",
+                decimals: 18,
+                name: "Test Ether (Rinkeby)",
+                address: "0x0000000000000000000000000000000000000000",
                 abiArray: s
             }
         },
