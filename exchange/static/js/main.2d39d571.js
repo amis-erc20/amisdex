@@ -28551,14 +28551,14 @@
                 name: "AMIS (Kovan)",
                 address: "0x7161f09a6ae81b546bebc04b24629c4f3dad746f",
                 abiArray: s,
-                minInitialSize: "1.0"
+                minInitialSize: "0.01"
             },
             cntr: {
                 tradableType: "Ether",
                 symbol: "ETH",
                 decimals: 18,
                 name: "Test Ether (Kovan)",
-                minInitialSize: "0.01"
+                minInitialSize: "0.001"
             },
             rwrd: {
                 tradableType: "ERC20",
