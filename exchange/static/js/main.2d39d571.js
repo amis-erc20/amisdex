@@ -28450,7 +28450,7 @@
             bookAddress: "0x8D9c1aA79d8e58f508180E9BF16D48f42234993e",
             bookAbiArray: a,
             symbol: "AMIS-ETH",
-            priceRangeAdjustment: -3,
+            priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
@@ -28545,7 +28545,7 @@
             symbol: "AMIS-ETH",
             bookStartBlock: 6268330,
             newerVersion: "AMIS-ETH",
-            priceRangeAdjustment: -3,
+            priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
