@@ -28450,7 +28450,38 @@
             bookAddress: "0x8D9c1aA79d8e58f508180E9BF16D48f42234993e",
             bookAbiArray: a,
             symbol: "AMIS-ETH",
-            priceRangeAdjustment: 0,
+            priceRangeAdjustment: -2,
+            base: {
+                tradableType: "ERC20",
+                symbol: "AMIS",
+                decimals: 9,
+                name: "AMIS (Ropsten TEST)",
+                address: "0x949bed886c739f1a3273629b3320db0c5024c719",
+                abiArray: s,
+                minInitialSize: "0.001"
+            },
+            cntr: {
+                tradableType: "Ether",
+                symbol: "ETH",
+                decimals: 18,
+                name: "Test Ether (Ropsten)",
+                minInitialSize: "0.001"
+            },
+            rwrd: {
+                tradableType: "ERC20",
+                symbol: "CRSW",
+                decimals: 18,
+                name: "CRSW Token",
+                address: "0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488",
+                abiArray: s
+            }
+        },
+        "AMISTEST2-ETH": {
+            networkId: "3",
+            bookAddress: "0xb64d5d9242dd2d506d50f1505fc61b140b8be61e",
+            bookAbiArray: a,
+            symbol: "AMIS-ETH",
+            priceRangeAdjustment: -3,
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
