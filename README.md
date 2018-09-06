@@ -29,7 +29,7 @@ https://amis-erc20.github.io/amisdex/exchange/?pairId=DEMO-ETH
 https://kovan.etherscan.io/address/0xb7c7d8488966bd297bab7ca780fb1923f982a419#code UbiRewardToken
 https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#code  BookERC20EthV1
 
-https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH
+https://amis-erc20.github.io/amisdex/exchange/?pairId=AMISK-ETH
 
 
 ## Ropsten On-Chain Order Book

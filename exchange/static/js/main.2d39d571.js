@@ -32672,7 +32672,7 @@
         }
         ,
         this.handleTopNavSelect = function(t) {
-            "Home" === t ? window.open("https://amisdex.github.io/amis-exchange-www", "_blank") : "ViewBooks" === t ? window.open("https://amisdex.github.io/amis-exchange-www/products/", "_blank") : "Help" === t ? window.open("https://amisdex.github.io/amis-exchange-www/help/", "_blank") : "DemoHelp" === t && e.setState(function(e, t) {
+            "Home" === t ? window.open("https://amis-erc20.github.io/amisdex", "_blank") : "ViewBooks" === t ? window.open("/amis-erc20.github.io/amisdex/products/", "_blank") : "Help" === t ? window.open("https://amis-erc20.github.io/amisdex/help/", "_blank") : "DemoHelp" === t && e.setState(function(e, t) {
                 return {
                     showDemoHelp: !0
                 }
@@ -33668,7 +33668,7 @@
                     text: "Place " + this.props.direction + " Order"
                 })), s.a.createElement(u.u, null, "Please read our ", s.a.createElement("a", {
                     target: "_blank",
-                    href: "http://amisdex.github.io/amis-exchange-www/trading-rules",
+                    href: "http://amis-erc20.github.io/amisdex/trading-rules",
                     rel: "noopener noreferrer"
                 }, "Trading Rules"), " for help and terms.")))
             }

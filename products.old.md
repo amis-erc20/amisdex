@@ -25,7 +25,7 @@ subtitle: books offered on the amis-erc20.github.io/amisdex exchange
 |[OMG-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|banking|
 |[PBIT-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=PBIT-ETH)|[PeraBit](http://www.perabitcoin.com/)|online retail transactions|
 |[RBTC-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=RBTC-ETH)|[Bitcoin Revolution](https://www.bitcoinrevolution.site/)|currency|
-|[SALT-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
+|[SALT-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=SALT-ETH)|[SALT](https://coinmarketcap.com/assets/salt/)|lending|
 |[SSN-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=SSN-ETH)|[Ssente](https://www.ssente.site/)|money transfer|
 |[STORJ-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=STORJ-ETH)|[Storj](https://coinmarketcap.com/assets/storj/)|storage|
 |[TDM-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=TDM-ETH)|[Token of Digital Money](http://tokenofdigitalmoney.com/)|currency|

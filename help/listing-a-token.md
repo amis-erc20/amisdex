@@ -35,8 +35,8 @@ So from organizations asking for their new token to be listed, we would apprecia
  - a small donation of ETH to our address 0x5b878ba97bae92fc0aa6133edbf2f58d52350d65 to cover our gas costs;
  - a small donation of your token to the same address - this also lets us double-check it is compatible;
  - proof of a trade of AMIS on the AMIS Exchange;
- - a link back to amisdex.github.io/amis-exchange-www from your website
- - some sort of announcement to your followers / subscribers (ACME Token now listed on amisdex.github.io/amis-exchange-www) - or words to that effect.
+ - a link back to amis-erc20.github.io/amisdex from your website
+ - some sort of announcement to your followers / subscribers (ACME Token now listed on amis-erc20.github.io/amisdex) - or words to that effect.
 
 ### Contact Us
 
