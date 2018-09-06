@@ -42,9 +42,9 @@ We do not currently support Stop Orders (one difficulty is how to pay the gas to
 
 AMIS Exchange supports the following Order specification for your maker/taker orders, which let you control the conditions under which your order can or cannot be filled:
 
-- |Good Till Cancel| - Your order will be matched against existing orders. If it cannot be completely filled, the remaining unfilled portion of your order will be added to the book and remain valid until you cancel it. These are the default terms.|
-- |Immediate or Cancel| - Your order will be matched against existing orders. If it cannot be completely filled, the remaining unfilled portion will be cancelled. The order will never be added to the book. Popular for quick, small trades.|
-- |Maker Only| - Your order will be rejected immediately (without matching) if any part of it would be filled. Otherwise, it will be added to the book and remain valid until you cancel it. Popular with market makers. Also known as Post Only.|
+|Good Till Cancel| - Your order will be matched against existing orders. If it cannot be completely filled, the remaining unfilled portion of your order will be added to the book and remain valid until you cancel it. These are the default terms.|
+|Immediate or Cancel| - Your order will be matched against existing orders. If it cannot be completely filled, the remaining unfilled portion will be cancelled. The order will never be added to the book. Popular for quick, small trades.|
+|Maker Only| - Your order will be rejected immediately (without matching) if any part of it would be filled. Otherwise, it will be added to the book and remain valid until you cancel it. Popular with market makers. Also known as Post Only.|
 
 Some exchanges (Bittrex) call these the Time in Force of the order.
 
@@ -90,7 +90,7 @@ Fees paid by traders are held in the book contract on behalf of the contract cre
 
 ## Gas Cost per txs type summary
 
-|Action|AMIS Exchange Fee|Ethereum Gas Amount|
+|**Action**|**AMIS Exchange Fee**|**Ethereum Gas Amount**|
 |Deposit Eth|none|100,000|
 |Deposit Token|none|200,000|
 |Withdraw Eth|none|100,000|
@@ -103,23 +103,25 @@ Fees paid by traders are held in the book contract on behalf of the contract cre
 
 7 types of Order states defined:
 
-- |Sending|- Your order is being sent via the Ethereum network to the exchange contract|
-- |Failed Send| - Your order could not be sent to the Ethereum network|
-- |Failed Txn| - Your order was sent to the Ethereum network but was not processed by the exchange contract|
-- |Rejected| - The exchange contract could not place your order (e.g. size too small)|
-- |Needs Gas| - See Gas Top Up section|
-- |Open| - Your order is resting on the book and waiting for others to fill it (or you to cancel it)|
-- |Done| - Your order has either been completely filled, or it has been cancelled. Nothing else can happen to it.|
+|**ID #**|**Order State**|**Description**|
+|1|Sending|- Your order is being sent via the Ethereum network to the exchange contract|
+|2||Failed Send| - Your order could not be sent to the Ethereum network|
+|3||Failed Txn| - Your order was sent to the Ethereum network but was not processed by the exchange contract|
+|4||Rejected| - The exchange contract could not place your order (e.g. size too small)|
+|5||Needs Gas| - See Gas Top Up section|
+|6||Open| - Your order is resting on the book and waiting for others to fill it (or you to cancel it)|
+|7|Done| - Your order has either been completely filled, or it has been cancelled. Nothing else can happen to it.|
 
 In some cases, Orders such as Rejected and Done have a further Reason Code describing the root cause of that state, which can either be:
 
-- |Invalid Price| - The price of the order was too low or too high|
-- |Invalid Size| - The size of the order (either in base or counter currency) was too small|
-- |Insufficient Funds| - Your exchange balance does not have enough funds to place this order|
-- |Would Take| - Your Maker Only order would immediately match another order|
-- |Unmatched| - Your Immediate or Cancel order was cancelled because it could not be matched|
-- |Too Many Matches| - The limit on matches prior to entering the book has been reached (see Gas Costs section)|
-- |Client Cancel| - You cancelled the order.|
+|**Reason Code**|**Description**|
+|Invalid Price| - The price of the order was too low or too high|
+|Invalid Size| - The size of the order (either in base or counter currency) was too small|
+|Insufficient Funds| - Your exchange balance does not have enough funds to place this order|
+|Would Take| - Your Maker Only order would immediately match another order|
+|Unmatched| - Your Immediate or Cancel order was cancelled because it could not be matched|
+|Too Many Matches| - The limit on matches prior to entering the book has been reached (see Gas Costs section)|
+|Client Cancel| - You cancelled the order.|
 
 ## Confirmations, Forks, and Orphaned Transactions
 
