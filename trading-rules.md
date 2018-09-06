@@ -99,8 +99,8 @@ Table representing Gas limit usage per transaction type compared with the compet
 |Withdraw Eth|none|100,000|22900|37489|TBC|TBC|
 |Withdraw Token|none|100,000|48111|TBC|TBC|TBC|
 |Place Order (Maker-Only)|none|300,000|TBC|TBC|TBC|TBC|
-|Place Order (GTC / IoC)|0.2% of liquidity taken|300,000 + 100,000 for each order matched|93050-122986 per single order|135909-165581|TBC|TBC|
-|Cancel Order|none|150,000|?|TBC|TBC|TBC|
+|Place Order (GTC / IoC)|0.2% of liquidity taken|300,000 + 100,000 for each order matched|93050-122986 per single order|135909-165581|108199-241277|TBC|
+|Cancel Order|none|150,000|?|TBC|62090|TBC|
 
 ## Order Lifecycle
 
@@ -117,18 +117,18 @@ Table representing Gas limit usage per transaction type compared with the compet
 
 In some cases, Orders such as Rejected and Done have a further Reason Code describing the root cause of that state, which can either be:
 
-|**Reason Code**|**Description**|
-|Invalid Price| - The price of the order was too low or too high|
-|Invalid Size| - The size of the order (either in base or counter currency) was too small|
-|Insufficient Funds| - Your exchange balance does not have enough funds to place this order|
-|Would Take| - Your Maker Only order would immediately match another order|
-|Unmatched| - Your Immediate or Cancel order was cancelled because it could not be matched|
-|Too Many Matches| - The limit on matches prior to entering the book has been reached (see Gas Costs section)|
-|Client Cancel| - You cancelled the order.|
+|**ID #**|**Reason Code**|**Description**|
+|1|Invalid Price| - The price of the order was too low or too high|
+|2|Invalid Size| - The size of the order (either in base or counter currency) was too small|
+|3|Insufficient Funds| - Your exchange balance does not have enough funds to place this order|
+|4|Would Take| - Your Maker Only order would immediately match another order|
+|5|Unmatched| - Your Immediate or Cancel order was cancelled because it could not be matched|
+|6|Too Many Matches| - The limit on matches prior to entering the book has been reached (see Gas Costs section)|
+|7|Client Cancel| - You cancelled the order.|
 
 ## Confirmations, Forks, and Orphaned Transactions
 
-AMIS Exchange runs entirely on the Ethereum blockchain. The nature of the blockchain means that thousands of Ethereum nodes around the world are busy working to collectively agree on the state of the blockchain - in particular, to agree on which orders are in the order book, and on the state of each order.
+AMIS Dex Orderbook and order matching engine run entirely on the Ethereum blockchain. The nature of the blockchain means that thousands of Ethereum nodes around the world are busy working to collectively agree on the state of the blockchain - in particular, to agree on which orders are in the order book, and on the state of each order.
 
 Like all blockchains, sometimes this agreement (or consensus) isn't reached - groups of Ethereum nodes can temporarily disagree about which transactions (such as orders being placed) have been accepted into the blockchain. Normally, these disagreements are quickly resolved (in under a minute) and one group's view of the world wins, with transactions from the losing group being merged in where possible. (You might find the terms "Uncle Block" or "Chain Re-organization" useful if you want to read more).
 
