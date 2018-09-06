@@ -88,16 +88,19 @@ Example 3: You prefer to pay fees using your AMIS tokens, so you deposit 200 AMI
 
 Fees paid by traders are held in the book contract on behalf of the contract creator.
 
-## Gas Cost per txs type summary
+## Gas limit per txs type summary
 
-|**Action**|**AMIS Exchange Fee**|**Ethereum Gas Amount**|
-|Deposit Eth|none|100,000|
-|Deposit Token|none|200,000|
-|Withdraw Eth|none|100,000|
-|Withdraw Token|none|100,000|
-|Place Order (Maker-Only)|none|300,000|
-|Place Order (GTC / IoC)|0.2% of liquidity taken|300,000 + 100,000 for each order matched|
-|Cancel Order|none|150,000|
+Table representing Gas limit usage per transaction type compared with the competition:
+
+|**Action**|**AMIS Dex Fee**|**Amis Dex**|**Etherdelta**|**Ethen**|**Oasis**|**0x**|
+|**Type**|Subject to change|**Gas used**|**Gas used**|**Gas used**|**Gas used**|**Gas used**|
+|Deposit Eth|none|100,000|90000|44376|TBC|TBC|
+|Deposit Token|none|200,000|82287|TBC|TBC|TBC|
+|Withdraw Eth|none|100,000|22900|37489|TBC|TBC|
+|Withdraw Token|none|100,000|48111|TBC|TBC|TBC|
+|Place Order (Maker-Only)|none|300,000|TBC|TBC|TBC|TBC|
+|Place Order (GTC / IoC)|0.2% of liquidity taken|300,000 + 100,000 for each order matched|93050-122986 per single order|135909-165581|TBC|TBC|
+|Cancel Order|none|150,000|?|TBC|TBC|TBC|
 
 ## Order Lifecycle
 
@@ -105,11 +108,11 @@ Fees paid by traders are held in the book contract on behalf of the contract cre
 
 |**ID #**|**Order State**|**Description**|
 |1|Sending|- Your order is being sent via the Ethereum network to the exchange contract|
-|2||Failed Send| - Your order could not be sent to the Ethereum network|
-|3||Failed Txn| - Your order was sent to the Ethereum network but was not processed by the exchange contract|
-|4||Rejected| - The exchange contract could not place your order (e.g. size too small)|
-|5||Needs Gas| - See Gas Top Up section|
-|6||Open| - Your order is resting on the book and waiting for others to fill it (or you to cancel it)|
+|2|Failed Send| - Your order could not be sent to the Ethereum network|
+|3|Failed Txn| - Your order was sent to the Ethereum network but was not processed by the exchange contract|
+|4|Rejected| - The exchange contract could not place your order (e.g. size too small)|
+|5|Needs Gas| - See Gas Top Up section|
+|6|Open| - Your order is resting on the book and waiting for others to fill it (or you to cancel it)|
 |7|Done| - Your order has either been completely filled, or it has been cancelled. Nothing else can happen to it.|
 
 In some cases, Orders such as Rejected and Done have a further Reason Code describing the root cause of that state, which can either be:
