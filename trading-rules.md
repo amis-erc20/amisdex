@@ -1,12 +1,26 @@
 ---
 layout: page
-title: Trading Rules
+title: Trading Rules Guidelines
 subtitle: we suggest reading these before trading on AMIS Exchange
 ---
 
-This page explains in detail the types of orders offered by AMIS Exchange, and how they behave, followed by the terms and conditions for trading on AMIS Exchange.
+The scope of this document is to provide service operation guidelines when interfacing with the UI and the On chain orderbook smart contract; it explains the types of orders offered by AMIS Dex Exchange, the trading rules,  the operational lifecycle model, the fee structure, order limits, followed by the terms and conditions. See table of content below:
 
-### Limit Orders
+## Table of Contents
+- [Limit Orders](#limitorders)
+- [Market Orders and Stop Orders](#marketordersandstoporders)
+- [Order Terms](#ordersterms)
+- [Gas Costs](#gastcost)
+- [Gas Top Up](#gastopup)
+- [Fees](#fees)
+- [Gas Cost per txs type Summary](#gascostpertxstypesummary)
+- [Order Lifecycle](#orderlifecycle)
+- [Confirmations, Forks, and Orphaned Transactions](#wiki)
+- [Smart contract release](#smartcontractrelease)
+- [Marketplace participants](#marketplaceparticipants)
+- [Terms and conditions](#termsandconditions)
+
+## Limit Orders
 
 AMIS Exchange uses Limit Orders to ensure you get a fair price.
 
@@ -18,13 +32,13 @@ The size of the order is always specified in the base currency internally (wheth
 
 Most limit orders can be partially filled - this can happen if, say, you enter an order to buy 10,000 AMIS but only 4,000 AMIS are available at the price you want.
 
-### Market Orders and Stop Orders
+## Market Orders and Stop Orders
 
 Because the time taken to get the transaction containing your order into the Ethereum blockchain can vary considerably, we feel Market Orders are too dangerous and do not support them. We suggest using an Immediate or Cancel Limit Order with a generous price instead.
 
 We do not currently support Stop Orders (one difficulty is how to pay the gas to trigger the order when the stop is reached), but are keen to offer them (as Stop-Limit orders) in future.
 
-### Order Terms
+## Order Terms
 
 AMIS Exchange supports the following Order Terms for your orders, which let you control what happens when your order can or cannot be filled:
 
@@ -34,7 +48,7 @@ AMIS Exchange supports the following Order Terms for your orders, which let you 
 
 Some exchanges call these the Time in Force of the order.
 
-### Gas Costs
+## Gas Costs
 
 AMIS Exchange performs all matching using a smart contract running on the Ethereum blockchain. This is good - it means you don't need to worry about our servers failing, being shutdown or being hacked.
 
@@ -51,7 +65,7 @@ To let you stay in control of gas costs (and avoid running out of gas), we limit
 
 Most of our books have a reasonably high minimum order size to avoid them getting cluttered up with tiny orders.
 
-### Gas Top Up
+## Gas Top Up
 
 If Allow Gas Top-Up is disabled (the default), and there are so many matching orders in the book that matching your Good Till Cancel order against them all is too expensive to do in one go, the remaining unfilled portion of the order will be cancelled after matching as many as possible. The order will not be added to the book if this happens.
 
@@ -59,7 +73,7 @@ If Allow Gas Top-Up is enabled, and there are so many matching orders in the boo
 
 This mostly affects very large orders at a generous price - the exchange UI will warn you if your order looks like it may be expensive to match, and suggest enabling gas-top up.
 
-### Fees
+## Fees
 
 A fee of 0.2% of the matched amount is deducted from the amount the taker receives from each trade. For buy orders, the fee is in the base currency; for sell orders it is in the counter currency. The maker (provider of liquidity) pays no fees.
 
@@ -73,7 +87,7 @@ Example 3: You prefer to pay fees using your AMIS tokens, so you deposit 200 AMI
 
 Fees paid by traders are held in the book contract on behalf of the contract creator.
 
-### Fees and Gas Summary
+## Gas Cost per txs type summary
 
 |Action|AMIS Exchange Fee|Ethereum Gas Amount|
 |Deposit Eth|none|100,000|
@@ -84,9 +98,9 @@ Fees paid by traders are held in the book contract on behalf of the contract cre
 |Place Order (GTC / IoC)|0.2% of liquidity taken|300,000 + 100,000 for each order matched|
 |Cancel Order|none|150,000|
 
-### Order Lifecycle
+## Order Lifecycle
 
-Orders have a Status, which can be one of:
+7 types of Order states defined:
 
 - Sending - Your order is being sent via the Ethereum network to the exchange contract;
 - Failed Send - Your order could not be sent to the Ethereum network;
@@ -96,7 +110,7 @@ Orders have a Status, which can be one of:
 - Open - Your order is resting on the book and waiting for others to fill it (or you to cancel it);
 - Done - Your order has either been completely filled, or it has been cancelled. Nothing else can happen to it.
 
-Orders in some Statuses (such as Rejected and Done) have a further Reason Code explaining why they are in that state, which can be:
+In some cases, Orders such as Rejected and Done have a further Reason Code describing the root cause of that state, which can either be:
 
 - Invalid Price - The price of the order was too low or too high;
 - Invalid Size - The size of the order (either in base or counter currency) was too small;
@@ -106,7 +120,7 @@ Orders in some Statuses (such as Rejected and Done) have a further Reason Code e
 - Too Many Matches - The limit on matches prior to entering the book has been reached (see Gas Costs section);
 - Client Cancel - You cancelled the order.
 
-### Confirmations, Forks, and Orphaned Transactions
+## Confirmations, Forks, and Orphaned Transactions
 
 AMIS Exchange runs entirely on the Ethereum blockchain. The nature of the blockchain means that thousands of Ethereum nodes around the world are busy working to collectively agree on the state of the blockchain - in particular, to agree on which orders are in the order book, and on the state of each order.
 
@@ -126,25 +140,25 @@ For now, we recommend clients mitigate against this risk by waiting several Ethe
 
 Clients should be aware that pending transactions are visible to other Ethereum nodes, and that it is possible for Ethereum miners to re-order pending transactions.
 
-### New Book Formation
+## Smart contract release
 
-From time to time, we may release a new exchange contract for a trading pair and make the AMIS Exchange web UI point to the new contract. For example, we might do this to improve performance, add features, or adjust minimum order sizes.
+From time to time, we may release a new smart exchange contract for a trading pair and make the AMIS Exchange web UI point to the new contract. For example, we might do this to improve performance, add features, or adjust minimum order sizes.
 
 When this happens, orders from the old contract will not be copied to the new contract - the new book will start empty. We will try to provide several days notice before introducing a new contract, though exceptions may be made for security issues.
 
 We aim to provide easy web UI access to each old contract for at least 3 months so orders / balances in the old contract can be cancelled, withdrawn or inspected. The contract itself is unstoppable - clients can continue to use the old contract via other interfaces.
 
-### Other Market Participants
+## Marketplace Participants
 
-The AMIS Exchange exchange contract has no notion of sign-up, approval, or indeed identity. We cannot and do not intend to police behaviour of clients of the exchange contract.
+The AMIS Dex exchange contract has no notion of sign-up, approval, or indeed KYC in its current state; however due to regulatory constraints we decided to develop a similar ecosystem which would enforce KYC/AML procedures. This new ecosystem is not ready yet, its conception relies on the current release which will evolve for the purpose of experimental code improvement and to better cope with legal and regulation requirements.
 
-However, we ask that clients:
-- act honestly in dealings other market participants;
+However, we ask that our beta tester(s) do :
+- act honestly in dealings with other market participants;
 - act fairly, dealing with other market participants in a consistent and appropriately transparent manner;
 - act with integrity, avoiding questionable practices and behaviours;
 - act cautiously, aware that some other market particpants may not follow these guidelines.
 
-### Terms and Conditions
+## Terms and Conditions
 
 The AMIS Exchange Solidity Contracts, Web UI, and software libraries ("the Dapp") are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
 
