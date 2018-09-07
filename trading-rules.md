@@ -92,11 +92,11 @@ Fees paid by traders are held in the book contract on behalf of the contract cre
 
 Table representing Gas limit usage per transaction type compared with the competition:
 
-|**Action**|**AMIS Dex Fee**|**Amis Dex**|**Etherdelta**|**Ethen**|**Oasis**|**0x**|
+|**Action**|**AMIS Dex Fee**|**Amis Dex**|**Etherdelta**|**Ethex**|**Oasis**|**0x**|
 |**Type**|Subject to change|**Gas used**|**Gas used**|**Gas used**|**Gas used**|**Gas used**|
-|Deposit Eth|44036|100,000|90000|44376|TBC|TBC|
+|Deposit Eth|44036|100,000|90000|TBC|TBC|TBC|
 |Deposit Token|none|200,000|82287|TBC|TBC|TBC|
-|Withdraw Eth|none|100,000|22900|37489|TBC|TBC|
+|Withdraw Eth|none|100,000|22900|TBC|TBC|TBC|
 |Withdraw Token|none|100,000|48111|TBC|TBC|TBC|
 |Place Order (Maker-Only)|none|300,000|TBC|TBC|TBC|TBC|
 |Place Order (GTC / IoC)|0.2% of liquidity taken|300,000 + 100,000 for each order matched|93050-122986 per single order|135909-165581|108199-241277|TBC|
