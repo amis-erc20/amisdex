@@ -33317,22 +33317,22 @@
                 }, s.a.createElement("p", null, "Waiting for MetaMask, Mist, INFURA or other web3 provider to initialise ...")) : i.props.bridgeStatus.web3Present ? i.props.bridgeStatus.unsupportedNetwork ? s.a.createElement(u.x, {
                     header: "Unsupported Ethereum Network",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "This book is only available on the ", i.props.bridgeStatus.targetNetworkName, "."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. Metamask, Mist). You might need to reload this page.")) : i.props.bridgeStatus.networkChanged ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "This book is only available on the ", i.props.bridgeStatus.targetNetworkName, "."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. Metamask, Mist, Ledger). You might need to reload this page.")) : i.props.bridgeStatus.networkChanged ? s.a.createElement(u.x, {
                     header: "Ethereum Network Changed",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "You seem to have changed Ethereum Network."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. MetaMask, Mist) back to ", i.props.bridgeStatus.chosenSupportedNetworkName, ", or reload this page to pick up the new network.")) : i.props.bridgeStatus.accountLocked && i.props.bridgeStatus.mightReadAccountOrders ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "You seem to have changed Ethereum Network."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. MetaMask, Mist, Ledger) back to ", i.props.bridgeStatus.chosenSupportedNetworkName, ", or reload this page to pick up the new network.")) : i.props.bridgeStatus.accountLocked && i.props.bridgeStatus.mightReadAccountOrders ? s.a.createElement(u.x, {
                     header: "Ethereum Account Locked",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "We need to know which Ethereum account to use."), s.a.createElement("p", null, "Try unlocking your Ethereum Client (e.g. MetaMask, Mist). You might need to reload this page after unlocking.")) : i.props.bridgeStatus.accountChanged ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "We need to know which Ethereum account to use."), s.a.createElement("p", null, "Try unlocking your Ethereum Client (e.g. MetaMask, Mist, Ledger). You might need to reload this page after unlocking.")) : i.props.bridgeStatus.accountChanged ? s.a.createElement(u.x, {
                     header: "Ethereum Account Changed",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "You seem to have changed Ethereum Account."), s.a.createElement("p", null, "Try changing Ethereum Account in your Ethereum Client (e.g. Metamask, Mist) back to ", i.props.bridgeStatus.chosenAccount, ", or reload this page to pick up the new account.")) : i.props.bridgeStatus.mightReadAccountOrders ? i.props.bridgeStatus.canReadBook && i.props.bridgeStatus.canReadAccountOrders ? i.props.ownEthBalance && new m(i.props.ownEthBalance).lt("0.005") ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "You seem to have changed Ethereum Account."), s.a.createElement("p", null, "Try changing Ethereum Account in your Ethereum Client (e.g. Metamask, Mist, Ledger) back to ", i.props.bridgeStatus.chosenAccount, ", or reload this page to pick up the new account.")) : i.props.bridgeStatus.mightReadAccountOrders ? i.props.bridgeStatus.canReadBook && i.props.bridgeStatus.canReadAccountOrders ? i.props.ownEthBalance && new m(i.props.ownEthBalance).lt("0.005") ? s.a.createElement(u.x, {
                     header: "Low Ethereum Balance",
                     bsStyle: "danger"
                 }, s.a.createElement("p", null, 'Your Ethereum account may not have enough ETH to pay for "gas" fees.'), s.a.createElement("p", null, "Gas fees are needed to send Ethereum transactions, such as when placing orders or making payments."), s.a.createElement("p", null, "Consider topping up your ", i.props.bridgeStatus.chosenAccount, " account with more Ether (", s.a.createElement("i", null, "not"), " your book contract balance).")) : void 0 : s.a.createElement(u.x, {
                     header: "Unknown Ethereum Connection Problem",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "Some unusual problem has occurred preventing AMIS Exchange connecting to the Ethereum Network."), s.a.createElement("p", null, "Try reloading this page, or contact us on gitchat with details of the problem.")) : s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "Some unusual problems have occurred preventing AMIS Exchange connecting to the Ethereum Network."), s.a.createElement("p", null, "Try reloading this page, or contact us on gitchat with details of the problem.")) : s.a.createElement(u.x, {
                     header: "View Only Mode - Reload this page to choose a different way to connect to the Ethereum network.",
                     bsStyle: "info"
                 }, s.a.createElement("p", null, "You are connected to the Ethereum network as a guest, so you will not be able to make payments or place orders.")) : s.a.createElement(u.x, {
