@@ -20,4 +20,4 @@ title: Help!
 
 ### Getting Support
 
- - ... but if not, send a pm in our gitchat channel, slack, disqus, post to our [subreddit](https://www.reddit.com/r/amis_erc20/), or raise an issue in [our github repo](https://github.com/amis-erc20/amisdex/issues).
+ - ... but if not, send a pm in our <a href="https://gitter.im/AMIS-DELTA_DEX/Lobby/" target="_blank">Gitchat</a>, slack <a href="https://amisolution.slack.com/" target="_blank"></a>, disqus, post to our [subreddit](https://www.reddit.com/r/amis_erc20/), or raise an issue in [our github repo](https://github.com/amis-erc20/amisdex/issues).

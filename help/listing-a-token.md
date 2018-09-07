@@ -28,7 +28,7 @@ When we do start accepting listings, here's what we will be looking for before a
 We're happy to list well-known, high-volume tokens straight away for our clients.
 
 For less well-known tokens without much volume yet, we're not sure if the fees we'll get from clients trading the token will ever cover our costs, which are:
- - approx 0.03 ETH in gas costs to create a book contract (and again if it needs upgrading);
+ - approx 0.1 ETH in gas costs to create/test a book contract (and again if it needs upgrading);
  - several hours of our time to check the token's reputation and compatibility, create the contract, and add to this website.
 
 So from organizations asking for their new token to be listed, we would appreciate some of the following:
@@ -40,4 +40,4 @@ So from organizations asking for their new token to be listed, we would apprecia
 
 ### Contact Us
 
-To get a token listed, send a message in GitChat(https://gitter.im/AMIS-DELTA-DEX/Lobby) or raise an issue in [our github repo](https://github.com/amisdex/amis-exchange-www). Make sure you let us know the Ethereum address of the token you want listed!
+To get a token listed, send a message in <a href="https://gitter.im/AMIS-DELTA_DEX/Lobby/" target="_blank">Gitchat</a>, slack <a href="https://amisolution.slack.com/" target="_blank"></a> or raise an issue in [our github repo](https://github.com/amisdex/amis-exchange-www). Make sure you let us know the Ethereum address of the token you want listed!
