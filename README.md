@@ -45,4 +45,5 @@ https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code OnC
 https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code ORA Incentivized Reward Token
 
 The UI below connects you to the live mainnet contract:
-[https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)
+
+- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)
