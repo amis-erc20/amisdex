@@ -61538,7 +61538,7 @@
     e.exports = n.p + "static/media/create-order-example.28bba4c8.png"
 }
 , function(e, t, n) {
-    e.exports = n.p + "static/media/kiwi-logo.3df69858.png"
+    e.exports = n.p + "static/media/amis-logo-3df69858.png"
 }
 , function(e, t, n) {
     e.exports = n.p + "static/media/metamask.79bd7c91.png"
