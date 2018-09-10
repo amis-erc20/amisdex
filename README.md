@@ -1,5 +1,5 @@
-<img align="left" src="amis-logo3.png" alt="amis-logo3"/>
-<img align="right" src="https://github.com/amisolution/ERC20-AMIS/raw/master/images/AMIS-QRCODE.png" alt="AMIS-QRCODE" width="100"/>
+<img align="left" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/amis-logo3.png" alt="amis-logo3"/>
+<img align="right" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/AMIS-QRCODE.png" alt="AMIS-QRCODE" width="100"/>
 
 [![Website Down](https://img.shields.io/badge/website-down-red.svg)](http://erc20-amis.amisolution.net/)&nbsp;
 [![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Trade Bounty](https://img.shields.io/badge/trade-bounty-orange.svg)](https://github.com/amisolution/ERC20-AMIS/issues/)&nbsp;[![Twitter AirDrop](https://img.shields.io/badge/Twitter-Airdrop-red.svg)](https://twitter.com/AMIStoken_ERC20)&nbsp;[![Official Twitter](https://img.shields.io/badge/official-twitter-brightgreen.svg)](https://twitter.com/amis_erc20)&nbsp;[![Official AmisForkdelta](https://img.shields.io/badge/official-forkdelta-brightgreen.svg)](https://forkdelta.app/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
@@ -43,3 +43,7 @@ https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#
 ## Mainnet
 https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code OnChainOrderBookV012b  
 https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code ORA Incentivized Reward Token
+
+The UI below connects you to the live mainnet contract:
+
+- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)
