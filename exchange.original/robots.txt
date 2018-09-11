@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /js/
+Disallow: /exchange.original/
+Disallow: /css/
+Disallow: /img/
+Disallow: /css/
+Disallow: /_includes/
+Sitemap: https://amisdex.github.io/amis-exchange-www/sitemap.xml
