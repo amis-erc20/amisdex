@@ -18,7 +18,6 @@ amis-exchange-www and amisdex are part of the ERC20-AMIS Token Future, options a
 Amis Dex is a web front end designed to interact with a smart contract acting as On-chain order-book enabled with a builtin matching orders engine powered by the ethereum blockchain.
 
 static content behind https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH
-
 git clone https://github.com/amisdex/amis-exchange-www
 
 ## Offline demo
@@ -29,9 +28,8 @@ Try it
 https://kovan.etherscan.io/address/0xb7c7d8488966bd297bab7ca780fb1923f982a419#code UbiRewardToken
 https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#code  BookERC20EthV1
 
-
 ## Ropsten On-Chain Order Book
-<img align="left" src="https://raw.githubusercontent.com/amisdex/amis-exchange-www/img/amisdex-preview-test.png" alt="Preview of the AmisDex Interface" style="vertical-align: bottom;">
+<img align="left" src="https://raw.githubusercontent.com/amisdex/amis-exchange-www/master/img/amisdex-preview-test.png" alt="Preview of the AmisDex Interface" style="vertical-align: bottom;">
 - https://ropsten.etherscan.io/address/0xb64d5d9242dd2d506d50f1505fc61b140b8be61e#writeContract  BookERC20EthV1Dec Testing OK 
 
 - https://ropsten.etherscan.io/address/0xcb87fe167673507da5f21da9202ebf94d8f36d8d Current BookERC20EthV1 - Testing OK
