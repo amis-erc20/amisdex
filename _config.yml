@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 url: "https://amisdex.github.io/amis-exchange-www/"
-baseurl: "/exchange"
+baseurl: "/amis-exchange-www/"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -18,7 +18,7 @@ description: Official AMIS Dex exchange featuring on-chain orderbook and order m
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://amisdex.github.io/amis-exchange-www/exchange"
+  Home: "https://amisdex.github.io/amis-exchange-www/"
   Blog: "blog"
   #Exchange: "products"
   Help: "help"
