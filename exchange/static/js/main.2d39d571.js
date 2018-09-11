@@ -31701,8 +31701,8 @@
                 }) : void 0, s.a.createElement("img", {
                     src: g.a,
                     className: "App-logo",
-                    alt: "AMIS Exchange"
-                }), "- The official decentralized exchange with on-chain orderbook and built-in matching engine for trading the AMIS pair"), s.a.createElement(u.a, null, s.a.createElement(u.b, null, s.a.createElement(u.c, {
+                    alt: "AMIS Dex Exchange"
+                }), "- The official decentralized exchange with on-chain orderbook and built-in order matching engine for trading the AMIS pair"), s.a.createElement(u.a, null, s.a.createElement(u.b, null, s.a.createElement(u.c, {
                     inverse: !0
                 }, s.a.createElement(u.d, {
                     bsStyle: "pills",
