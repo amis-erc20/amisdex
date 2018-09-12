@@ -3,7 +3,7 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "http://amis-erc20.github.io/amisdex"
+url: "https://amis-erc20.github.io/amisdex"
 baseurl: "/amisdex"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
@@ -18,7 +18,7 @@ description: Official AMIS exchange Dex featuring on-chain orderbook with builti
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://amis-erc20.github.io/amisdex"
+  Home: "https://amis-erc20.github.io/amisdex"
   Blog: "blog"
   #Exchange: "products"
   Help: "help"
