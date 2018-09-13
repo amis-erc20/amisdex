@@ -27,6 +27,7 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |[BTCL-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=BTCL-ETH)|[BTCL](https://thekiwi.online/)|BTCL|
 |[BOLD-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=BOLD-ETH)|[BOLD](https://thekiwi.online/)|BOLD|
 |[EAGLE-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=EAGLE-ETH)|[EAGLE](https://thekiwi.online/)|EAGLE|
+|[EBCH-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=EBCH-ETH)|[EBCH](https://thekiwi.online/)|EBCH|
 |[eBTC-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=eBTC-ETH)|[eBTC](https://thekiwi.online/)|eBTC|
 |[ELTCOIN-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=ELTCOIN-ETH)|[ELTCOIN](https://thekiwi.online/)|ELTCOIN|
 |[ETHFM-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=ETHFM-ETH)|[ETHFM](https://thekiwi.online/)|ETHFM|
