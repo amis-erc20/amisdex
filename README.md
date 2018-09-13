@@ -17,18 +17,22 @@ What is amis-exchange-www and amisdex
 amis-exchange-www and amisdex are part of the ERC20-AMIS Token Future, options and crypto derivatives Project.
 Amis Dex is a web front end designed to interact with a smart contract acting as On-chain order-book enabled with a builtin matching orders engine powered by the ethereum blockchain.
 
-static content behind https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH
-git clone https://github.com/amisdex/amis-exchange-www
+- static content behind [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)
+- git clone https://github.com/amisdex/amis-exchange-www
 
 ## Offline demo
 Try it
-[https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)
+- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)
 
 ## Kovan
+
+- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH)
 https://kovan.etherscan.io/address/0xb7c7d8488966bd297bab7ca780fb1923f982a419#code UbiRewardToken
 https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#code  BookERC20EthV1
 
 ## Ropsten On-Chain Order Book
+
+- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH)
 <img align="left" src="https://raw.githubusercontent.com/amisdex/amis-exchange-www/master/img/amisdex-preview-test.png" alt="Preview of the AmisDex Interface" style="vertical-align: bottom;">
 - https://ropsten.etherscan.io/address/0xb64d5d9242dd2d506d50f1505fc61b140b8be61e#writeContract  BookERC20EthV1Dec Testing OK 
 
@@ -40,9 +44,9 @@ https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#co
 https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#writeContract CRSWUbiRewardToken
 
 ## Mainnet
-https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code OnChainOrderBookV012b  
-https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code ORA Incentivized Reward Token
 
 The UI below connects you to the live mainnet contract:
-
 - [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)
+- https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code OnChainOrderBookV012b  
+- https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code ORA Incentivized Reward Token
+
