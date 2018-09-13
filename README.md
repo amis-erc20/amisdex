@@ -38,7 +38,7 @@ https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#co
 
 - https://ropsten.etherscan.io/address/0xcb87fe167673507da5f21da9202ebf94d8f36d8d Current BookERC20EthV1 - Testing OK
   
-- https://ropsten.etherscan.io/address/0x8D9c1aA79d8e58f508180E9BF16D48f42234993e BookERC20EthV1p1
+- Configured for AMISTEST-ETH https://ropsten.etherscan.io/address/0x8D9c1aA79d8e58f508180E9BF16D48f42234993e BookERC20EthV1p1
 
 - Ropsten Reward Token
 https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#writeContract CRSWUbiRewardToken
