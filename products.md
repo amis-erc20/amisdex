@@ -13,10 +13,9 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |[AMISTEST1-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST1-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
 |[AMISTEST2-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST2-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
 |[AMISK-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH)|n/a|Try placing a trade with Amis on "Kovan" testnet|
-|[KIWITEST-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=KIWITEST-ETH)|n/a|Buy and sell Kiwi on "Ropsten" testnet|
 |[TESTR-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTR-ETH)|n/a|play-money book on "Ropsten" testnet|
-|[TESTI-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTI-ETH)|n/a|play-money book on "Kovan" testnet|
-|[TEST8-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TEST8-ETH)|n/a|play-money book on "Kovan" testnet|
+|[TESTI-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTI-ETH)|n/a|play-money book on "Rinkeby" testnet|
+|[TEST8-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TEST8-ETH)|n/a|play-money book on "Rinkeby" testnet|
 
 ## Trading Pairs Available At Launch
 
