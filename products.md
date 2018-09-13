@@ -13,6 +13,7 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |[AMISTEST1-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST1-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
 |[AMISTEST2-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST2-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
 |[AMISK-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH)|n/a|Try placing a trade with Amis on "Kovan" testnet|
+|[KIWITEST-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=KIWITEST-ETH)|n/a|Try placing a trade with Amis on "Ropsten"
 |[TESTR-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTR-ETH)|n/a|play-money book on "Ropsten" testnet|
 |[TESTI-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TESTI-ETH)|n/a|play-money book on "Rinkeby" testnet|
 |[TEST8-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TEST8-ETH)|n/a|play-money book on "Rinkeby" testnet|
@@ -37,11 +38,10 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |[YOLO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|[YOLO Coin](https://thekiwi.online/)|YOLO|
 
 
-## Trading Pairs To Be Added
+## Trading Pairs to be added
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|[OMG-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=OMG-ETH)|[OmiseGo](https://coinmarketcap.com/assets/omisego/)|Banking|
 |[BAT-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=BAT-ETH)|[Basic Attention Token](https://coinmarketcap.com/currencies/basic-attention-token/)|Advertising|
 |[MKR-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=MKR-ETH)|[Maker](https://coinmarketcap.com/currencies/maker/)|Governace Token for Maker|
 |[REQ-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=REQ-ETH)|[Request Network](https://coinmarketcap.com/currencies/request-network/)|Decentralised payments|
