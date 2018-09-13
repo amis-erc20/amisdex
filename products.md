@@ -41,7 +41,7 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |[PBIT-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=PBIT-ETH)|[PBIT](https://thekiwi.online/)|PBIT|
 |[RBTC-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=RBTC-ETH)|[RBTC](https://thekiwi.online/)|RBTC|
 |[SALT-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SALT-ETH)|[SALT](https://thekiwi.online/)|SALT|
-|[SSN-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SSN-ETH)|[ETHFM](https://thekiwi.online/)|SSN|
+|[SSN-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SSN-ETH)|[SSN](https://thekiwi.online/)|SSN|
 |STORJ-ETH|[STORJ](https://thekiwi.online/)|STORJ|
 |[TDM-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TDM-ETH)|[TDM](https://thekiwi.online/)|TDM|
 |[YOLO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|[YOLO Coin](https://thekiwi.online/)|YOLO|
