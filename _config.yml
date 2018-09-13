@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 url: "https://amisdex.github.io/amis-exchange-www/"
-baseurl: "/amis-exchange-www/"
+baseurl: "/amis-exchange-www"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -18,9 +18,9 @@ description: Official AMIS Dex exchange featuring on-chain orderbook and order m
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://amisdex.github.io/amis-exchange-www/"
+  Home: "https://amisdex.github.io/amis-exchange-www"
   Blog: "blog"
-  #Exchange: "products"
+  Exchange: "products"
   Help: "help"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -90,7 +90,7 @@ url-pretty: "amisdex.github.io/amis-exchange-www"  # eg. "deanattali.com/beautif
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "ossbss_ami_ucc"
+disqus: "amisolution-net"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
