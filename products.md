@@ -43,9 +43,9 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |[RBTC-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=RBTC-ETH)|[RBTC](https://thekiwi.online/)|RBTC|
 |[SALT-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SALT-ETH)|[SALT](https://thekiwi.online/)|SALT|
 |[SSN-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SSN-ETH)|[SSN](https://thekiwi.online/)|SSN|
-|[STORJ-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SSN-ETH)|[STORJ](https://thekiwi.online/)|STORJ|
+|[STORJ-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=STORJ-ETH)|[STORJ](https://thekiwi.online/)|STORJ|
 |[TDM-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TDM-ETH)|[TDM](https://thekiwi.online/)|TDM|
-|[YOLO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|[YOLO Coin](https://thekiwi.online/)|YOLO|
+|[YOLO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=YOLO-ETH)|[YOLO Coin](https://thekiwi.online/)|YOLO|
 
 
 ## Trading Pairs to be added
