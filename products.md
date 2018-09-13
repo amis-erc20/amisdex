@@ -23,7 +23,7 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[AMIS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
-|AXYS-ETH|[AXYS](https://thekiwi.online/)|AXYS|
+|[AXYS-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=GEN-ETH)|[AXYS](https://thekiwi.online/)|AXYS|
 |[BTCL-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=BTCL-ETH)|[BTCL](https://thekiwi.online/)|BTCL|
 |[BOLD-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=BOLD-ETH)|[BOLD](https://thekiwi.online/)|BOLD|
 |[EAGLE-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=EAGLE-ETH)|[EAGLE](https://thekiwi.online/)|EAGLE|
@@ -31,12 +31,17 @@ subtitle: books offered on the amisdex.github.io/amis-exchange-www exchange
 |[ELTCOIN-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=ELTCOIN-ETH)|[ELTCOIN](https://thekiwi.online/)|ELTCOIN|
 |[ETHFM-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=ETHFM-ETH)|[ETHFM](https://thekiwi.online/)|ETHFM|
 |[EXMR-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=EXMR-ETH)|[EXMR](https://thekiwi.online/)|EXMR|
+|[FUDD-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=FUDD-ETH)|[FUDD](https://thekiwi.online/)|FUDD|
 |[GEN-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=GEN-ETH)|[GEN](https://thekiwi.online/)|GEN|
+|[GOAL-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=GOAL-ETH)|[GOAL](https://thekiwi.online/)|GOAL|
 |[HYTV-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=HYTV-ETH)|[HYTV](https://thekiwi.online/)|HYTV|
 |[KIWI-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=KIWI-ETH)|[The KIWI Token](https://thekiwi.online/)|the KIWI|
 |[OMG-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=OMG-ETH)|[OMISEGO](http:///)|OMG|
 |OXBTC-ETH|[0xBitcoin](http://0xbitcoin.org/)|mined bitcoin-like token|
+|[PBIT-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=PBIT-ETH)|[PBIT](https://thekiwi.online/)|PBIT|
+|[RBTC-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=RBTC-ETH)|[RBTC](https://thekiwi.online/)|RBTC|
 |[SALT-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SALT-ETH)|[SALT](https://thekiwi.online/)|SALT|
+|[SSN-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=SSN-ETH)|[ETHFM](https://thekiwi.online/)|SSN|
 |STORJ-ETH|[STORJ](https://thekiwi.online/)|STORJ|
 |[TDM-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=TDM-ETH)|[TDM](https://thekiwi.online/)|TDM|
 |[YOLO-ETH](http://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)|[YOLO Coin](https://thekiwi.online/)|YOLO|
