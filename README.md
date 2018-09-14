@@ -29,7 +29,8 @@ Try it
 - [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH)
 <img align="left" src="https://raw.githubusercontent.com/amisdex/amis-exchange-www/master/img/amisdex-preview-test.png" alt="Preview of the AmisDex Interface" style="vertical-align: bottom;">
   
-- Configured for AMISTEST-ETH https://ropsten.etherscan.io/address/0x8D9c1aA79d8e58f508180E9BF16D48f42234993e BookERC20EthV1p1
+- Configured for AMISTEST-ETH https://ropsten.etherscan.io/address/0x8D9c1aA79d8e58f508180E9BF16D48f42234993e BookERC20EthV1p1 solidity v0.4.24
+- Configured for AMISTEST-ETH https://ropsten.etherscan.io/address/0xd8f99f161e107a5a7decca7a215a380d72b52616#code OnChainOrderBookV013b solidity v0.4.25
 
 - Ropsten Reward Token
 https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#writeContract CRSWUbiRewardToken
@@ -44,8 +45,9 @@ The UI below connects you to the live mainnet contract:
 ## Kovan
 
 - [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH)
-https://kovan.etherscan.io/address/0xb7c7d8488966bd297bab7ca780fb1923f982a419#code UbiRewardToken
-https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#code  BookERC20EthV1
+https://kovan.etherscan.io/address/0xb7c7d8488966bd297bab7ca780fb1923f982a419#code  UbiRewardToken
+https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#code  BookERC20EthV1 solidity v0.4.24
+https://kovan.etherscan.io/address/0x13cf20b0a6053ba53855e5574ad049323109b0c4#code  OnChainOrderBookV013b solidity v0.4.25
 
 
 
