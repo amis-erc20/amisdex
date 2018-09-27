@@ -1,0 +1,26 @@
+  aaaaaaaaaa:               aaaaaaaa`         aaaaaaaa         aaaaaaaaa+          aaaaaaaaaaaaaaaaaa+                
+  a`        ,:              +        .       .       ,`        aa       '         ;                  +                
+  aa         :,             a         :      :        a        aa,       a        '                   a               
+  aa          :,            aa         +     '         a       aaa        '       a                   `.              
+  aa;          :,           aa`         #    +,        ,`      aaaa       +       aa                   a              
+  aaa           :,          aaa          #   a'         a      aaaa        a      aa.                   +             
+  aaa            ;.         aaa;          +  aa          a     aaaaa        ;     aaa        #aaaaaaaaaaa             
+  aaaa            ;.        aaaa           : aa          ..    aaaaa;       #     aaa#        aaaaaaaaaaa             
+  aaaa             '.       aaaaa           .aa           a    aaaaaa        a    aaaa        .aaaaaaaaaa'            
+  aaaa;             '.      aaaaa             a            a   aaaaaaa       `,   aaaaa                   :           
+  aaaaa              '.     aaaaaa                         ..  aaaaaaa`       a   aaaaa;                   a          
+  aaaaa               '.    aaaaaa,                         a  aaaaaaaa        a  aaaaaa                    +         
+  aaaaaa               '`   aaaaaaa                          a aaaaaaaa'       .. aaaaaaa                   '         
+  aaaaaa       +        +`  aaaaaaa+                         `,,aaaaaaaa        a aaaaaaa+                   a        
+   aaaaa;       a        +` aaaaaaaa                          a  aaaaaaaa        a,aaaaaaaaaaaaaaaaaaa        ;       
+   :aaaaa       +#        +` aaaaaaaa                          a  aaaaaaa.       ,``aaaaaaaaaaaaaaaaaa+       #       
+    aaaaa        a;        +` +aaaaaa`                         `,  aaaaaaa        a `aaaaaaaaaaaaaaaaaa        a      
+     aaaaa       +a.        +` ,aaaaaa                          a   aaaaaa#        #  aaaaaaaaaaaaaaaaaa       `,     
+      aaaa                   #`  aaaaa;        .        '        a   'aaaaa        :`  aaaaaa                   a     
+      `aaa;                   #   aaaaa         ,       a        `,   .aaaaa        a   aaaaa                    a    
+       'aaa                    #   aaaa#        ::      aa        #     aaaa:        +   'aaaa                   :`   
+        aaa                     #   #aaa         a;     'a#        a     aaaa        ;     aaa.                   a   
+         aaa        aaaa.        #   :aaa         a+    ,aa`        :     aaaa        a     aaa                    #  
+          aa        aaaaa         a    aa.        #aa   ; aa        #      #aaaaaaaaaaa'    :aaaaaaaaaaaaaaaaaaaaaaa  
+          ,aaaaaaaaaaaaaaaaaaaaaaaaa    aaaaaaaaaaa#aaaaa  aaaaaaaaaa:      ;aaaaaaaaaaa     :aaaaaaaaaaaaaaaaaaaaaa  
+           #aaaaaaaaa   aaaaaaaaaaa;     #aaaaaaaaa  .'#a   aaaaaaaaa:       `aaaaaaaaaa      `aaaaaaaaaaaaaaaaaaaa`  

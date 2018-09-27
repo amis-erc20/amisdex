@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Listing new Tokens on KIWI Exchange
+title: Listing new Tokens on AMIS Exchange
 ---
 
-~~We're happy to list most tokens on KIWI Exchange~~
+~~We're happy to list most tokens on AMIS Exchange~~
 
-KIWI Exchange is *not listing any new tokens at the moment*, we are currently in testing mode. When we are ready to list we
+AMIS Exchange is *not listing any new tokens at the moment*, we are currently in testing mode. When we are ready to list we
 will post an update.
 
 When we do start accepting listings, here's what we will be looking for before adding a token:
@@ -32,12 +32,12 @@ For less well-known tokens without much volume yet, we're not sure if the fees w
  - several hours of our time to check the token's reputation and compatibility, create the contract, and add to this website.
 
 So from organizations asking for their new token to be listed, we would appreciate some of the following:
- - a small donation of ETH to our address 0x0E9C82fEdD839a855c763b2b196017A9C763eC9f to cover our gas costs;
+ - a small donation of ETH to our address 0x5b878ba97bae92fc0aa6133edbf2f58d52350d65 to cover our gas costs;
  - a small donation of your token to the same address - this also lets us double-check it is compatible;
- - proof of a trade of KIWI on the KIWI Exchange;
- - a link back to exchange.thekiwi.io from your website
- - some sort of announcement to your followers / subscribers (ACME Token now listed on exchange.kiwi.online) - or words to that effect.
+ - proof of a trade of AMIS on the AMIS Exchange;
+ - a link back to amisdex.github.io/amis-exchange-www from your website
+ - some sort of announcement to your followers / subscribers (ACME Token now listed on amisdex.github.io/amis-exchange-www) - or words to that effect.
 
 ### Contact Us
 
-To get a token listed, send an email to contact@thekiwi.online or raise an issue in [our github repo](https://github.com/liberation-online/exchange.thekiwi.io). Make sure you let us know the Ethereum address of the token you want listed!
+To get a token listed, send a message in GitChat(https://gitter.im/AMIS-DELTA-DEX/Lobby) or raise an issue in [our github repo](https://github.com/amisdex/amis-exchange-www). Make sure you let us know the Ethereum address of the token you want listed!

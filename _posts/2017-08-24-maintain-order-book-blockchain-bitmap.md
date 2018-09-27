@@ -5,7 +5,7 @@ subtitle: Introducing the price bitmap technique used to help match orders entir
 tags: [how-it-works]
 ---
 
-> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference KIWI Exchange, but all credit for this article belongs to Kieran.
+> This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference Ubitok.io as AMIS Exchange would not exist otherwise, but all credit for this article belongs to Kieran.
 
 In our first blog post, I'm going to introduce the technique we've developed to efficiently maintain an order book entirely on the Ethereum blockchain, including performing best execution matching.
 
@@ -68,7 +68,7 @@ For example, suppose we have an open sell order at a price of 1.23. It turns out
 
 By using this bitmap technique we can cheaply record and check which prices have orders and quickly skip to a particular price. We can also walk through adjacent prices without having to read from storage - we just look at different bits in the word we already read.
 
-Here's some solidity code - slightly simplified from the [real contract](https://github.com/liberation-online/kiwiexchange-contracts/blob/master/contracts/BookERC20EthV1p1.sol) - showing the idea:
+Here's some solidity code - slightly simplified from the [real Ropsten contract](https://ropsten.etherscan.io/address/0xb64d5d9242dd2d506d50f1505fc61b140b8be61e#code) - showing the idea:
 
 ```Solidity
 

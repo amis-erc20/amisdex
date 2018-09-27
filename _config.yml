@@ -3,66 +3,66 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "http://exchange.thekiwi.io"
-baseurl: "/"
+url: "https://amisdex.github.io/amis-exchange-www/"
+baseurl: "/amis-exchange-www"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: KIWI Exchange
+title: AMIS Exchange
 
 # Short description of your site
-description: the official KIWI exchange powered by Ethereum
+description: Official AMIS Dex exchange featuring on-chain orderbook and order matching engine powered by Ethereum Blockchain
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://exchange.thekiwi.io"
+  Home: "https://amisdex.github.io/amis-exchange-www"
   Blog: "blog"
-  #Exchange: "products"
+  Exchange: "products"
   Help: "help"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/kiwi-logo.png"
+avatar: "/img/amis-logo.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # annoyingly baseurl doesn't work here
-#title-img: "/img/ubitok-logo.svg"
+#title-img: "/img/amis-logo.png"
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Liberation Online
-  email: "contact@thekiwi.online"
-  facebook: yourname  # eg. daattali
-  github: liberation-online/exchange.thekiwi.io    # eg. daattali
-  twitter: thekiwitoken   # eg. daattali
+  name: Amisolution
+  email: "contact@"
+  facebook: amis.token  # eg. amisolution
+  github: amisolution/ERC20-AMIS    # eg. amisolution
+  twitter: amis_erc20   # eg. amisolution
   reddit: yourname    # NO LONGER USED - WE HAVE A subreddit
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: yourname  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
+  google-plus: +LaurentGossbssamiucc   # eg. +LaurentGossbssamiucc or 109424650000069020925
+  linkedin: yourname  # eg. amisolution
+  xing: yourname      # eg. amisolution
+  stackoverflow: 39644/amisolution  # eg. "39644/amisolution"
+  snapchat: yourname  # eg. amisolution
+  instagram: yourname # eg. amisolution
+  youtube: yourlink   # eg. user/amisolution or channel/amisolution
+  spotify: yourname   # eg. amisolution
   telephone: yourphone   # eg. +14159998888
-  steam: yourname     # eg. daattali
-  twitch: yourname    # eg. daattali
-  yelp: yourname      # eg. daattali
+  steam: yourname     # eg. amisolution
+  twitch: yourname    # eg. amisolution
+  yelp: yourname      # eg. amisolution
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
-  facebook: false
-  email: true
+  rss: true
+  facebook: true
+  email: false
   twitter: true
-  google-plus: false
+  google-plus: true
   github: true
   reddit: true
   linkedin: false
@@ -81,16 +81,16 @@ footer-links-active:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
+  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "exchange.thekiwi.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "amisdex.github.io/amis-exchange-www"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "amisolution-net"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -153,7 +153,7 @@ exclude:
   - README.md
   - Vagrantfile
 
-# prose.io config
+# prose.io now amisdex.github.io/amis-exchange-www config
 prose:
   rooturl: '_posts'
   media: 'img'

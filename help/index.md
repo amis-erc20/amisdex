@@ -16,8 +16,8 @@ title: Help!
 
 ### About Us, Roadmap, and More
 
- - [Our Homepage](/) should cover most other questions ...
+ - [Our Homepage](https://amisolution.github.io/ERC20-AMIS) should cover most other questions ...
 
 ### Getting Support
 
- - ... but if not, email us at contact@thekiwi.online, post to our [subreddit](https://www.reddit.com/r/kiwitoken/), or raise an issue in [our github repo](https://github.com/liberation-online/exchange.thekiwi.io).
+ - ... but if not, send a pm in our gitchat channel, slack, disqus, post to our [subreddit](https://www.reddit.com/r/amis_erc20/), or raise an issue in [our github repo](https://github.com/amisdex/amis-exchange-www/issues).
