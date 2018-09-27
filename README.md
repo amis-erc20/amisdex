@@ -16,9 +16,8 @@ What is Amidex ?
 # Amisdex
 
 Amisdex is a Web front end designed to interact with a dedicated smart contract acting as the On-chain orderbook featuring builtin order matching engine powered by the ethereum blockchain. 
-static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH
-
-git clone https://github.com/amis-erc20/amisdex
+* static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH
+* git clone https://github.com/amis-erc20/amisdex
 
 ## Mainnet
 
