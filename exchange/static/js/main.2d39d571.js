@@ -28458,7 +28458,38 @@
                 name: "AMIS (Ropsten TEST)",
                 address: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 abiArray: s,
+                minInitialSize: "0.0001"
+            },
+            cntr: {
+                tradableType: "Ether",
+                symbol: "ETH",
+                decimals: 18,
+                name: "Test Ether (Ropsten)",
                 minInitialSize: "0.001"
+            },
+            rwrd: {
+                tradableType: "ERC20",
+                symbol: "CRSW",
+                decimals: 18,
+                name: "CRSW Token",
+                address: "0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488",
+                abiArray: s
+            }
+        },
+        "AMISTEST1-ETH": {
+            networkId: "3",
+            bookAddress: "0xd8f99f161e107a5a7decca7a215a380d72b52616",
+            bookAbiArray: a,
+            symbol: "AMIS-ETH",
+            priceRangeAdjustment: -2,
+            base: {
+                tradableType: "ERC20",
+                symbol: "AMIS",
+                decimals: 9,
+                name: "AMIS (Ropsten TEST)",
+                address: "0x949bed886c739f1a3273629b3320db0c5024c719",
+                abiArray: s,
+                minInitialSize: "0.0001"
             },
             cntr: {
                 tradableType: "Ether",
@@ -28553,7 +28584,7 @@
                 name: "AMIS",
                 address: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 abiArray: s,
-                minInitialSize: "0.001"
+                minInitialSize: "0.0001"
             },
             cntr: {
                 tradableType: "Ether",
@@ -33670,7 +33701,11 @@
                     target: "_blank",
                     href: "http://amis-erc20.github.io/amisdex/trading-rules",
                     rel: "noopener noreferrer"
-                }, "Trading Rules"), " for help and terms.")))
+                }, "Trading Rules"), " for help and terms. Raise an issue on Github ", s.a.createElement("a", {
+                    target: "_blank",
+                    href: "https://github.com/amisdex/amis-exchange-www/issues",
+                    rel: "noopener noreferrer"
+                }, "Github issues"), " f")))
             }
         }]),
         t
