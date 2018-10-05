@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Tutorial
-subtitle: Depositing Ether and Buying Tokens using MetaMask
+subtitle: Depositing Ether and Buying Tokens using MetaMask / Nifty / TrustWallet
 ---
 
 In this tutorial, we're going to deposit Ether into AMIS Exchange and use it to buy AMIS tokens.
 
-This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/).
+This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/), [Nifty Chrome Extension](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid) or [TrustWallet](https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp).
 
 If you don't want to (or can't) use MetaMask, we have another [version for MyEtherWallet users](../depositing-ether-and-buying-tokens-using-myetherwallet).
 

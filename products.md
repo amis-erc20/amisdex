@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Products
-subtitle: orderbooks offered on the amis-erc20.github.io/amisdex exchange
+subtitle: Orderbooks offered on the amis-erc20.github.io/amisdex exchange
 ---
 ## Trading Pairs Available At Launch
 
