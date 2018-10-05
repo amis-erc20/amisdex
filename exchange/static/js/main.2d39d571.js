@@ -32703,7 +32703,7 @@
         }
         ,
         this.handleTopNavSelect = function(t) {
-            "Home" === t ? window.open("https://amis-erc20.github.io/amisdex", "_blank") : "ViewBooks" === t ? window.open("/amis-erc20.github.io/amisdex/products/", "_blank") : "Help" === t ? window.open("https://amis-erc20.github.io/amisdex/help/", "_blank") : "DemoHelp" === t && e.setState(function(e, t) {
+            "Home" === t ? window.open("https://amis-erc20.github.io/amisdex", "_blank") : "ViewBooks" === t ? window.open("https://amis-erc20.github.io/amisdex/products/", "_blank") : "Help" === t ? window.open("https://amis-erc20.github.io/amisdex/help/", "_blank") : "DemoHelp" === t && e.setState(function(e, t) {
                 return {
                     showDemoHelp: !0
                 }
