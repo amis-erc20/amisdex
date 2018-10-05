@@ -2,7 +2,7 @@
 layout: post
 title: Maintaining an Order Book on the Blockchain (Part 1)
 subtitle: Introducing the price bitmap technique used to help match orders entirely on-chain
-tags: [how-it-works]
+tags: [dapp],[amis],[dex],[exchange],[eth],[decentralized],[amisdex],[erc20],[onchain],[orderbook],[order],[matching]
 ---
 
 > This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference Ubitok.io as AMIS Exchange would not exist otherwise, but all credit for this article belongs to Kieran.

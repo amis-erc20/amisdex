@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Products
-subtitle: books offered on the amis-erc20.github.io/amisdex exchange
+subtitle: Orderbooks offered on the amis-erc20.github.io/amisdex exchange
 ---
 
 ## Live Products

@@ -2,7 +2,7 @@
 layout: post
 title: Wallet Management in Decentralized Apps
 subtitle: Making it easy for clients to get started sending transactions
-tags: [dapp-developers]
+tags: [dapp],[amis],[dex],[exchange],[eth],[decentralized],[amisdex],[erc20],[metamask]
 ---
 
 > This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference Ubitok.io as AMIS Exchange would not exist otherwise, but almost all credit for this article belongs to Kieran.
@@ -16,7 +16,7 @@ Instead of sign-up, the most important part for a decentralized app ("DApp") lik
 In an ideal world, everyone would use a nice browser extension like MetaMask, and DApps could just rely on that, but in practice there's at least five different ways clients want to send transactions:
 
  1. Manual Transactions (user copy-and-pastes details into e.g. MEW)
- 2. Browser Extension (MetaMask)
+ 2. Browser Extension (MetaMask, TrustWallet, nifty)
  3. Dapp Browser / Local Client (Mist, Parity, Geth)
  4. Hardware Wallet (Ledger, Trezor)
  5. Imported Private Key / Keystore JSON / Mnemonic

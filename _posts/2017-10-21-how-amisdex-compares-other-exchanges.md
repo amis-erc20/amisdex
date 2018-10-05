@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How AMIS Exchange compares to other exchanges
-tags: [industry]
+tags: [dapp],[amis],[dex],[exchange],[eth],[decentralized],[amisdex],[comparison],[dapp-developers]
 ---
 
 > This post was originally written by <a href="https://www.linkedin.com/in/kieranelby/" target="\_blank">Kieran Elby</a> for a project he has since shut down. We have made some small modifications to reference Ubitok.io as AMIS Exchange would not exist otherwise, but almost all credit for this article belongs to Kieran.

@@ -2,7 +2,7 @@
 layout: post
 title: Amis Dex On-chain Order Book live
 subtitle: Amis Dex Experimental Developments in beta testing
-tags: [dapp-developers]
+tags: [dapp],[amis],[dex],[exchange],[eth],[decentralized],[amisdex],[erc20],[dapp-developer],[onchain],[orderbook],[order],[matching]
 ---
 
 At AMIS Exchange, we want to make it as easy as possible for new AMIS subscribers to start lending, borrowing, trading, transferring without compromising on security end to end. The Amis Dex On-chain Order Book solves the problem faced by most decentralized exchanges nowadays: centralized Order Book. On the contrary Amis Dex takes the opposite approach leveraging the power of decentralization by transparently publishing the orders on the chain. With this principle in mind, on can admit that On chain orders are not exposed nor subject to the attack surface and attack vectors affecting 0x relays, Idex & etherdelta/forkdelta centralized orderbooks and their associated APIs.
