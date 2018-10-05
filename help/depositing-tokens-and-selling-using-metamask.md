@@ -70,10 +70,12 @@ When we click 'Place Sell Order', MetaMask will pop-up its "Confirm Transaction"
 
 You can check the progress of the transaction in MetaMask.
 
+![](https://raw.githubusercontent.com/amis-erc20/amisdex/master/help/deposit-and-sell-tokens-with-metamask.gif)
+
 Eventually, we should see:
  - our AMIS balance go down to 0 since they're all tied up in our open order;
  - our sell order appear as an open order is the "My Orders" section;
- - our order appear in the Ask side of the order book.
+ - our order appear in the Ask side of the orderbook.
 
 Sometimes difficulties communicating with the Etherum Network can cause updates to get lost - you may need to hit reload after waiting a few minutes.
 
