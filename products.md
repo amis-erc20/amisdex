@@ -1,23 +1,8 @@
 ---
 layout: page
 title: Products
-subtitle: books offered on the amis-erc20.github.io/amisdex exchange
+subtitle: orderbooks offered on the amis-erc20.github.io/amisdex exchange
 ---
-
-## Test Products
-
-|Book|CoinMarketCap / Website|Description|
-|------|----|----|
-|[DEMO-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
-|[AMISTEST-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
-|[AMISTEST1-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST1-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
-|[AMISTEST2-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST2-ETH)|n/a|Try our latest contract release and place an AMIS trade on "Ropsten" testnet|
-|[AMISK-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISK-ETH)|n/a|Try our latest contract release and place an AMIS trade with Amis on "Kovan" testnet|
-|[AMISK1-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISK1-ETH)|n/a|Try our latest contract release and place an AMIS trade with Amis on "Kovan" testnet|
-|[TESTR-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=TESTR-ETH)|n/a|play-money book on "Ropsten" testnet|
-|[TESTI-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=TESTI-ETH)|n/a|play-money book on "Rinkeby" testnet|
-|[TEST8-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=TEST8-ETH)|n/a|play-money book on "Rinkeby" testnet|
-
 ## Trading Pairs Available At Launch
 
 |Book|CoinMarketCap / Website|Description|
@@ -46,6 +31,20 @@ subtitle: books offered on the amis-erc20.github.io/amisdex exchange
 |[STORJ-ETH](http://amisdex.github.io/amisdex/exchange/?pairId=STORJ-ETH)|[STORJ](https://coinmarketcap.com/currencies/storj)|STORJ|
 |[TDM-ETH](http://amisdex.github.io/amisdex/exchange/?pairId=TDM-ETH)|[TDM](https://coinmarketcap.com/currencies/tdm)|TDM|
 |[YOLO-ETH](http://amisdex.github.io/amisdex/exchange/?pairId=YOLO-ETH)|[YOLO Coin](https://coinmarketcap.com/currencies/)|YOLO|
+
+## Test Products
+
+|Book|CoinMarketCap / Website|Description|
+|------|----|----|
+|[DEMO-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
+|[AMISTEST-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
+|[AMISTEST1-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST1-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
+|[AMISTEST2-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST2-ETH)|n/a|Try our latest contract release and place an AMIS trade on "Ropsten" testnet|
+|[AMISK-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISK-ETH)|n/a|Try our latest contract release and place an AMIS trade with Amis on "Kovan" testnet|
+|[AMISK1-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMISK1-ETH)|n/a|Try our latest contract release and place an AMIS trade with Amis on "Kovan" testnet|
+|[TESTR-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=TESTR-ETH)|n/a|play-money book on "Ropsten" testnet|
+|[TESTI-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=TESTI-ETH)|n/a|play-money book on "Rinkeby" testnet|
+|[TEST8-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=TEST8-ETH)|n/a|play-money book on "Rinkeby" testnet|
 
 
 ## Trading Pairs to be added
