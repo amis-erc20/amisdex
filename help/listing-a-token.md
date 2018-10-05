@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Listing new Tokens on AMIS Exchange
+title: Listing new Tokens on AMIS Dex Exchange
 ---
 
 ~~We're happy to list most tokens on AMIS Exchange~~

@@ -6,13 +6,13 @@ subtitle: Depositing Tokens and Selling them using MetaMask
 
 In this tutorial, we're going to deposit ERC20 Tokens into AMIS Exchange and sell them for Ether.
 
-This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/).
+This version of the tutorial assumes you've installed and are using the [MetaMask Chrome Extension](https://metamask.io/), [Nifty Chrome Extension](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid) or [TrustWallet](https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp).
 
 If you don't want to (or can't) use MetaMask, we have another [version for MyEtherWallet users](../depositing-tokens-and-selling-using-myetherwallet).
 
 ### Choosing MetaMask
 
-First, make sure you've unlocked your MetaMask account by entering your password and selected the address you want to use with AMIS Exchange.
+First, make sure you've unlocked your MetaMask / Nifty / Trust Wallet account by entering your password and selected the address you want to use with AMIS Exchange.
 
 The address will need enough tokens for your deposit, plus a little Ether (say 0.05 ETH) to cover gas fees.
 
@@ -22,7 +22,7 @@ You might need to reload the AMIS Exchange web page after unlocking your MetaMas
 
 ### Depositing Tokens - Steps
 
-Now AMIS Exchange knows to use your MetaMask account, you should see your Ethereum address balance appear as an "External" ETH balance in AMIS Exchange.
+Now AMIS Exchange knows to use your MetaMask  / Nifty / Trust Wallet account, you should see your Ethereum address balance appear as an "External" ETH balance in AMIS Exchange.
 
 Your AMIS balance will also appear as an "External" AMIS balance. Your "Exchange" balance will likely be zero though.
 
@@ -64,7 +64,7 @@ We'll make sure 'SELL AMIS' is selected, enter the number of tokens we want to s
 
 The default "Good Till Cancel" terms would be ok, but for this tutorial since we're offering a price (rather than taking someone else's) we're going to choose "Maker Only" terms.
 
-Choosing "Maker Only" means that our order will be cancelled if it would immediately get matched (as might happen if our price turned out to be too generous). It's also a bit cheaper in terms of gas. Full details of terms and order statuses are covered in our [Trading Rules](../../trading-rules).
+Choosing "Maker Only" means that our order will be cancelled if it would immediately get matched (as might happen if our price turned out to be too generous). It's also a bit cheaper in terms of gas. Full details of terms and order statuses are covered in our [Trading Rules guidelines](../../trading-rules).
 
 When we click 'Place Sell Order', MetaMask will pop-up its "Confirm Transaction" screen - check the details look sensible and click Confirm.
 
