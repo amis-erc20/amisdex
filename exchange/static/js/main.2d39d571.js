@@ -31693,7 +31693,7 @@
                     onClick: this.handleBookInfoShow
                 }, s.a.createElement(u.h, {
                     glyph: "info-sign",
-                    title: "book info"
+                    title: "Orderbook info"
                 }))), s.a.createElement(C.a, {
                     bridgeStatus: this.state.bridgeStatus
                 }), s.a.createElement(u.d, {
@@ -33701,11 +33701,11 @@
                     target: "_blank",
                     href: "http://amis-erc20.github.io/amisdex/trading-rules",
                     rel: "noopener noreferrer"
-                }, "Trading Rules"), " for help and terms. Raise an issue on Github ", s.a.createElement("a", {
+                }, "Trading Rules"), " for help and terms. Raise an incident on ", s.a.createElement("a", {
                     target: "_blank",
-                    href: "https://github.com/amisdex/amis-exchange-www/issues",
+                    href: "https://github.com/amis-erc20/amisdex/issues",
                     rel: "noopener noreferrer"
-                }, "Github issues"), " f")))
+                }, "Github issues"), "to get your problem fixed")))
             }
         }]),
         t
