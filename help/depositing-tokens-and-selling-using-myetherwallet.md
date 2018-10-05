@@ -71,6 +71,8 @@ Choosing "Maker Only" means that our order will be cancelled if it would immedia
 
 When we click 'Place Sell Order', AMIS Exchange will tell you what transaction you need to make via MyEtherWallet's "Send Ether and Tokens" page - you'll need to copy-and-paste the details (address, amount, gas and data) into MyEtherWallet, then hit Generate and Send Transaction.
 
+![](https://raw.githubusercontent.com/amis-erc20/amisdex/master/help/deposit-and-sell-tokens-with-metamask.gif)
+
 Eventually, after the transaction is complete, we should see:
  - our AMIS balance go down to 0 since they're all tied up in our open order;
  - our sell order appear as an open order is the "My Orders" section;
