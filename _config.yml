@@ -20,7 +20,7 @@ description: Official AMIS exchange Dex featuring on-chain orderbook with builti
 navbar-links:
   Home: "https://amis-erc20.github.io/amisdex"
   Blog: "blog"
-  #Exchange: "products"
+  Exchange: "products"
   Help: "help"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -58,7 +58,7 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
+  rss: true
   facebook: true
   email: false
   twitter: true
