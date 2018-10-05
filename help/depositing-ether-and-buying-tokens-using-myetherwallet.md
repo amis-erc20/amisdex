@@ -55,9 +55,9 @@ You'll need to copy-and-paste the details (address, amount, gas and data) into M
 Here comes the video:
 
 <p align="center">
-  <img alt="Buy Tokens with MyEtherWallet in action" src="https://github.com/amis-erc20/amisdex/blob/master/help/deposit-ether-with-mew.gif">
+  <img alt="Buy Tokens with MyEtherWallet in action" src="https://https://raw.githubusercontent.com/amis-erc20/amisdex/master/help/deposit-ether-with-mew.gif">
 </p>
-![](https://raw.githubusercontent.com/amis-erc20/amisdex/blob/master/help/deposit-ether-with-mew.gif)
+![](https://raw.githubusercontent.com/amis-erc20/amisdex/master/help/deposit-ether-with-mew.gif)
 
 Finally, you should have 9800 AMIS in your "Exchange" AMIS balance (after the teeny (0.2%) 200 AMIS fee). Click "[- Wtd]" button to withdraw to your MyEtherWallet account.
 
