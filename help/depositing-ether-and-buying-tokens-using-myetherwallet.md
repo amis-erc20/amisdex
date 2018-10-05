@@ -32,7 +32,7 @@ When you click the "Deposit Eth" button, AMIS Exchange will not send anything - 
 You'll need to copy-and-paste the details (address, amount, gas and data) into MyEtherWallet, then generate and send the transaction in MyEtherWallet.
 
 Make sure to include the "Data" - you might need to click "+ Advanced: Add Data" in MyEtherWallet.
-
+![](https://raw.githubusercontent.com/amis-erc20/amisdex/master/help/deposit-ether-with-mew.gif)
 Tips:
  - Make sure you leave some Ether in your account since you'll need it to pay gas fees;
  - You can check the progress of your transaction using the "Transaction History" in MyEtherWallet;
