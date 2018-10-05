@@ -54,7 +54,7 @@ You'll need to copy-and-paste the details (address, amount, gas and data) into M
 
 Here comes the video:
 
-![TODO - Buy Tokens with MyEtherWallet Video](../buy-tokens-with-mew.gif)
+![Buy Tokens with MyEtherWallet Video](buy-tokens-with-mew.gif)
 
 Finally, you should have 9800 AMIS in your "Exchange" AMIS balance (after the teeny (0.2%) 200 AMIS fee). Click "[- Wtd]" button to withdraw to your MyEtherWallet account.
 
