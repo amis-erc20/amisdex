@@ -4,6 +4,10 @@ This file lists all non-trivial changes to Beautiful Jekyll.
 
 I often make small changes to documentation, to the demo site, or to the general look-and-feel. These changes will not be listed here. Any other minor changes will also not be listed here.
 
+**2018-10-05** Release update 
+
+**2018-09-01** Adding new release and testing updated interface and contracts. 
+
 **2017-03-30** Make the footer contact links friendly for screen readers (thanks @eugenius1)
 
 **2017-03-30** Started a CHANGELOG file (thanks @eugenius1)
