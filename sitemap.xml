@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd/sitemap.xsd">
+ <url>
+  <loc>https://amis-erc20.github.io/amisdex/</loc>
+ </url>
+ <url>
+  <loc>https://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH</loc>
+ </url>
+<url>
+  <loc>https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH</loc>
+ </url>
+  <url>
+  <loc>https://amis-erc20.github.io/amisdex/trading-rules</loc>
+ </url>
+  <url>
+  <loc>https://amis-erc20.github.io/amisdex/2017-10-21-how-amisdex-compares-other-exchanges/</loc>
+ </url>
+ <url>
+  <loc>https://amis-erc20.github.io/amisdex/2018-09-01-amis-dex-experimental-developments/</loc>
+ </url>
+  <url>
+  <loc>https://amis-erc20.github.io/amisdex/products.old</loc>
+ </url>
+ <url>
+  <loc>https://amis-erc20.github.io/amisdex/products</loc>
+ </url>
+ <url>
+  <loc>https://amis-erc20.github.io/amisdex/help</loc>
+ </url>
+ <url>
+  <loc>https://amis-erc20.github.io/amisdex/blog</loc>
+ </url>
+</urlset>
