@@ -8,7 +8,7 @@ subtitle: Orderbooks offered on the amis-erc20.github.io/amisdex exchange
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[AMIS-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
-|[AXYS-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=GEN-ETH)|[AXYS](https://coinmarketcap.com/currencies/axys)|AXYS|
+|[AXYS-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AXYS-ETH)|[AXYS](https://coinmarketcap.com/currencies/axys)|AXYS|
 |[BTCL-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=BTCL-ETH)|[BTCL](https://coinmarketcap.com/currencies/btcl)|BTCL|
 |[BOLD-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=BOLD-ETH)|[BOLD](https://coinmarketcap.com/currencies/bold)|BOLD|
 |[EAGLE-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=EAGLE-ETH)|[EAGLE](https://coinmarketcap.com/currencies/eagle)|EAGLE|
