@@ -3,7 +3,7 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "https://amis-erc20.github.io/amisdex"
+url: "https://amisdex.amisolution.net"
 baseurl: "/amisdex"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
@@ -18,7 +18,7 @@ description: Official AMIS exchange Dex featuring on-chain orderbook with builti
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://amis-erc20.github.io/amisdex"
+  Home: "https://amisdex.amisolution.net"
   Blog: "blog"
   Exchange: "products"
   Help: "help"
@@ -86,11 +86,11 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "amis-erc20.github.io/amisdex"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "amisdex.amisolution.net"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "ossbss_ami_ucc"
+disqus: "www-amisolution-net.disqus.com"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""

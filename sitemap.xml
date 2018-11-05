@@ -4,33 +4,33 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd/sitemap.xsd">
  <url>
-  <loc>https://amis-erc20.github.io/amisdex/</loc>
+  <loc>https://amisdex.amisolution.net/</loc>
  </url>
  <url>
-  <loc>https://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH</loc>
+  <loc>https://amisdex.amisolution.net/exchange/?pairId=AMISTEST-ETH</loc>
  </url>
 <url>
-  <loc>https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH</loc>
+  <loc>https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETH</loc>
  </url>
   <url>
-  <loc>https://amis-erc20.github.io/amisdex/trading-rules</loc>
+  <loc>https://amisdex.amisolution.net/trading-rules</loc>
  </url>
   <url>
-  <loc>https://amis-erc20.github.io/amisdex/2017-10-21-how-amisdex-compares-other-exchanges/</loc>
+  <loc>https://amisdex.amisolution.net/2017-10-21-how-amisdex-compares-other-exchanges/</loc>
  </url>
  <url>
-  <loc>https://amis-erc20.github.io/amisdex/2018-09-01-amis-dex-experimental-developments/</loc>
+  <loc>https://amisdex.amisolution.net/2018-09-01-amis-dex-experimental-developments/</loc>
  </url>
   <url>
-  <loc>https://amis-erc20.github.io/amisdex/products.old</loc>
+  <loc>https://amisdex.amisolution.net/products.old</loc>
  </url>
  <url>
-  <loc>https://amis-erc20.github.io/amisdex/products</loc>
+  <loc>https://amisdex.amisolution.net/products</loc>
  </url>
  <url>
-  <loc>https://amis-erc20.github.io/amisdex/help</loc>
+  <loc>https://amisdex.amisolution.net/help</loc>
  </url>
  <url>
-  <loc>https://amis-erc20.github.io/amisdex/blog</loc>
+  <loc>https://amisdex.amisolution.net/blog</loc>
  </url>
 </urlset>
