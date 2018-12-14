@@ -42,8 +42,8 @@ author:
   facebook: amis.token  # eg. amisolution
   github: amisolution/ERC20-AMIS    # eg. amisolution
   twitter: amis_erc20   # eg. amisolution
-  reddit: yourname    # NO LONGER USED - WE HAVE A subreddit
-  google-plus: +LaurentGossbssamiucc   # eg. +LaurentGossbssamiucc or 109424650000069020925
+  reddit: AMIS_ERC20    # NO LONGER USED - WE HAVE A subreddit
+  google-plus: yourname   # NO LONGER USED -
   linkedin: yourname  # eg. amisolution
   xing: yourname      # eg. amisolution
   stackoverflow: 39644/amisolution  # eg. "39644/amisolution"
@@ -62,7 +62,7 @@ footer-links-active:
   facebook: true
   email: false
   twitter: true
-  google-plus: true
+  google-plus: false
   github: true
   reddit: true
   linkedin: false
