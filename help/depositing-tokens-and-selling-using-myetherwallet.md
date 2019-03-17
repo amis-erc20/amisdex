@@ -16,7 +16,7 @@ First, make sure you've unlocked your MyEtherWallet wallet on the [MyEtherWallet
 
 The address will need enough enough tokens for your deposit, plus a little Ether (say 0.05 ETH) to cover gas fees.
 
-Go to the pair you want to buy - in our case [AMIS-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH) - and when asked "How should AMIS Exchange send Ethereum transactions?", choose "Tell me what to send via MyEtherWallet" and copy-and-paste your MyEtherWallet Account Address.
+Go to the pair you want to buy - in our case [AMIS-ETH](https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH) - and when asked "How should AMIS Exchange send Ethereum transactions?", choose "Tell me what to send via MyEtherWallet" and copy-and-paste your MyEtherWallet Account Address.
 
 ### Depositing Tokens - Steps
 
