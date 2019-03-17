@@ -15,7 +15,7 @@ The scope of this document is to provide service operation guidelines when inter
 - [Fees](#fees)
 - [Gas Cost per txs type Summary](#gascostpertxstypesummary)
 - [Order Lifecycle](#orderlifecycle)
-- [Confirmations, Forks, and Orphaned Transactions](#Confirmations, Forks, and Orphaned Transactions)
+- [Confirmations, Forks, and Orphaned Transactions](#confirmations,forks,andorphanedtransactions)
 - [Smart contract release](#smartcontractrelease)
 - [Marketplace participants](#marketplaceparticipants)
 - [Terms and conditions](#termsandconditions)
@@ -137,8 +137,8 @@ Unfortunately, it is still possible (though rare) that a transaction can appear 
 If this occurs for an order-related transaction then clients may see odd behaviour in the AMIS Exchange Web UI such as:
 
  - depth appearing in the order book, only to disappear again;
- - ‎an open order appearing to be filled, only for it to return to an unmatched state;
- - ‎an apparently cancelled order returning to an open state.
+ - an open order appearing to be filled, only for it to return to an unmatched state;
+ - an apparently cancelled order returning to an open state.
 
 We are working with the Ethereum development community to establish and apply best practices for how to shield clients from this uncertainty, or to convey it meaningfully. Unfortunately the approach taken by centralized exchanges to wait for a certain number of confirmations on deposit doesn't work on-chain - it's not just deposits that can be reverted.
 
