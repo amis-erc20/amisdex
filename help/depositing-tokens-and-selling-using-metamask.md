@@ -16,7 +16,7 @@ First, make sure you've unlocked your MetaMask / Nifty / Trust Wallet account by
 
 The address will need enough tokens for your deposit, plus a little Ether (say 0.05 ETH) to cover gas fees.
 
-Go to the pair you want to sell - in our case [AMIS-ETH](http://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH) - and when asked "How should AMIS Exchange send Ethereum transactions?", choose MetaMask.
+Go to the pair you want to sell - in our case [AMIS-ETH](https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH) - and when asked "How should AMIS Exchange send Ethereum transactions?", choose MetaMask.
 
 You might need to reload the AMIS Exchange web page after unlocking your MetaMask account - sometimes it doesn't detect it straight away.
 
