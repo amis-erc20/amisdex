@@ -543,7 +543,7 @@
 , function(e, t, n) {
     "use strict";
     function r(e) {
-        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
+        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit https://facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
             n += "&args[]=" + encodeURIComponent(arguments[r + 1]);
         n += " for the full message or use the non-minified dev environment for full errors and additional helpful warnings.";
         var o = new Error(n);
@@ -10030,7 +10030,7 @@
 , function(e, t, n) {
     "use strict";
     function r(e) {
-        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
+        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit https://facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
             n += "&args[]=" + encodeURIComponent(arguments[r + 1]);
         n += " for the full message or use the non-minified dev environment for full errors and additional helpful warnings.";
         var o = new Error(n);
@@ -33701,11 +33701,11 @@
                     target: "_blank",
                     href: "https://amisdex.amisolution.net/trading-rules",
                     rel: "noopener noreferrer"
-                }, "Trading Rules"), " for help and terms. Raise an incident on ", s.a.createElement("a", {
+                }, "Trading Rules"), " for user recommendations, guidelines and instructions applicable defined as terms & conditions. Raise an incident on ", s.a.createElement("a", {
                     target: "_blank",
                     href: "https://github.com/amis-erc20/amisdex/issues",
                     rel: "noopener noreferrer"
-                }, "Github issues"), "to get your problem fixed")))
+                }, "Github issues "), "to get your problem fixed")))
             }
         }]),
         t
