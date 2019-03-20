@@ -28575,7 +28575,6 @@
             bookAbiArray: i,
             symbol: "AMIS-ETH",
             bookStartBlock: 6268330,
-            newerVersion: "AMIS-ETH",
             priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
@@ -28584,14 +28583,14 @@
                 name: "AMIS",
                 address: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 abiArray: s,
-                minInitialSize: "0.0001"
+                minInitialSize: "0.1"
             },
             cntr: {
                 tradableType: "Ether",
                 symbol: "ETH",
                 decimals: 18,
                 name: "Ether",
-                minInitialSize: "0.001"
+                minInitialSize: "0.01"
             },
             rwrd: {
                 tradableType: "ERC20",
@@ -33701,7 +33700,7 @@
                     target: "_blank",
                     href: "https://amisdex.amisolution.net/trading-rules",
                     rel: "noopener noreferrer"
-                }, "Trading Rules"), " for user recommendations, guidelines and instructions applicable defined as terms & conditions. Raise an incident on ", s.a.createElement("a", {
+                }, "Trading Rules"), " for user recommendations, guidelines and instructions defined in terms of applicable conditions. Raise an incident on ", s.a.createElement("a", {
                     target: "_blank",
                     href: "https://github.com/amis-erc20/amisdex/issues",
                     rel: "noopener noreferrer"
