@@ -28,7 +28,7 @@ A Limit Order lets you set your own price when buying or selling.
 
 AMIS Exchange guarantees Best Execution - for example, if you enter an order to buy at a price of 1.30, and there's an existing order in the book to sell at 1.25, you'll get the better (for you) price of 1.25. If your order matches several resting orders in the book, price-time priority is applied to decide which orders get matched first.
 
-The size of the order is always specified in the base currency internally (whether buying or selling). For example, on an AMIS/ETH book where AMIS tokens are being bought and sold for Ether, you would enter the number of AMIS tokens you want to buy or sell.
+The size of the order is always specified in the base currency internally (whether buying or selling). For example, on an AMIS/ETH book where AMIS tokens are being bought and sold for Ether, you would enter the number of AMIS tokens you want to buy or sell (min order size equivalent to 0.01 ETH).
 
 Most limit orders can be partially filled - this can happen if, say, you enter an order to buy 10,000 AMIS but only 4,000 AMIS are available at the price you want.
 
