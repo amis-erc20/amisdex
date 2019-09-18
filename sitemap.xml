@@ -13,6 +13,9 @@
   <loc>https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETH</loc>
  </url>
   <url>
+  <loc>https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETC</loc>
+ </url>
+  <url>
   <loc>https://amisdex.amisolution.net/trading-rules</loc>
  </url>
   <url>
