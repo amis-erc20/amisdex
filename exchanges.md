@@ -7,6 +7,7 @@ subtitle: Orderbooks offered on the amisdex.amisolution.net exchange
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
+|[AMIS-ETC](https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETC)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |[AMIS-ETH](https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETH)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |[AXYS-ETH](https://amisdex.amisolution.net/exchange/?pairId=AXYS-ETH)|[AXYS](https://coinmarketcap.com/currencies/axys)|AXYS|
 |[BTCL-ETH](https://amisdex.amisolution.net/exchange/?pairId=BTCL-ETH)|[BTCL](https://coinmarketcap.com/currencies/btcl)|BTCL|
