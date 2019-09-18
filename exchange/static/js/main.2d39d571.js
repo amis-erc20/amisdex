@@ -28345,6 +28345,11 @@
             name: "Kovan Test Network",
             liveness: "TEST"
         },
+        61: {
+            networkId: "61",
+            name: "ETC Network",
+            liveness: "LIVE"
+        },
         1: {
             networkId: "1",
             name: "Main Network",
@@ -28566,6 +28571,38 @@
                 decimals: 18,
                 name: "Test Ubi Reward Token (Rinkeby)",
                 address: "0x76316acf8c8628c6df4730492e62a36ca00995d1",
+                abiArray: s
+            }
+        },
+        "AMIS-ETC": {
+            networkId: "61",
+            bookAddress: "0xe4cdd296ac85c7d8477988f582d457e638349947",
+            bookAbiArray: i,
+            symbol: "AMIS-ETC",
+            bookStartBlock: 8812808,
+            priceRangeAdjustment: -2,
+            base: {
+                tradableType: "ERC20",
+                symbol: "AMIS",
+                decimals: 9,
+                name: "AMIS",
+                address: "0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af",
+                abiArray: s,
+                minInitialSize: "0.001"
+            },
+            quote: {
+                tradableType: "Ether",
+                symbol: "ETC",
+                decimals: 18,
+                name: "Ether",
+                minInitialSize: "0.001"
+            },
+            rwrd: {
+                tradableType: "ERC20",
+                symbol: "WETC",
+                decimals: 18,
+                name: "Wrapped ETC",
+                address: "0xef3da599a7c0de182f4af53032e57cc5d06551a7",
                 abiArray: s
             }
         },
@@ -35627,8 +35664,12 @@
                     return "https://ropsten.infura.io/" + e;
                 if ("1" === t)
                     return "https://mainnet.infura.io/" + e;
+                if ("2" === t)
+                    return "https://classic.blockscout.com/" + e;
                 if ("4" === t)
                     return "https://rinkeby.infura.io/" + e;
+                if ("61" === t)
+                    return "https://classic.blockscout.com/" ;
                 throw new Error("unknown networkId " + t)
             }
             ,
