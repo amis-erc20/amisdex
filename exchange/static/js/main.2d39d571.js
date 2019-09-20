@@ -28576,7 +28576,7 @@
         },
         "AMIS-ETC": {
             networkId: "61",
-            bookAddress: "0xe4cdd296ac85c7d8477988f582d457e638349947",
+            bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f", // 0xe4cdd296ac85c7d8477988f582d457e638349947
             bookAbiArray: i,
             symbol: "AMIS-ETC",
             bookStartBlock: 8812808,
