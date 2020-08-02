@@ -28450,6 +28450,37 @@
                 abiArray: s
             }
         },
+        "AMISTEST-ETC: {
+            networkId: "3",
+            bookAddress: "0x8D9c1aA79d8e58f508180E9BF16D48f42234993e",
+            bookAbiArray: a,
+            symbol: "AMISTEST-ETC",
+            priceRangeAdjustment: -2,
+            base: {
+                tradableType: "ERC20",
+                symbol: "AMISTEST",
+                decimals: 9,
+                name: "AMIS (Morden TEST)",
+                address: "0x949bed886c739f1a3273629b3320db0c5024c719",
+                abiArray: s,
+                minInitialSize: "0.0001"
+            },
+            cntr: {
+                tradableType: "Ether",
+                symbol: "ETH",
+                decimals: 18,
+                name: "Test Ether (Morden)",
+                minInitialSize: "0.001"
+            },
+            rwrd: {
+                tradableType: "ERC20",
+                symbol: "CRSW",
+                decimals: 18,
+                name: "CRSW Token",
+                address: "0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488",
+                abiArray: s
+            }
+        },
         "AMISTEST-ETH": {
             networkId: "3",
             bookAddress: "0x8D9c1aA79d8e58f508180E9BF16D48f42234993e",
@@ -28575,7 +28606,7 @@
             }
         },
         "AMIS-ETC": {
-            networkId: "1",
+            networkId: "61",
             bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f", // 0xe4cdd296ac85c7d8477988f582d457e638349947
             bookAbiArray: i,
             symbol: "AMIS-ETC",
