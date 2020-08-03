@@ -17,30 +17,31 @@ What is Amidex ?
 
 Amisdex is a Web front end designed to interact with a dedicated smart contract acting as the On-chain orderbook featuring builtin order matching engine powered by the ETC / ETH blockchain(s). 
 * static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH
+* static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETC
 * git clone https://github.com/amis-erc20/amisdex
 
 ## ETH Mainnet
 
 The URL below connects you to the live ETH mainnet contract UI:
-- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)
+- [https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH](https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH)
 - [ETH AMISdex contract:](https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code) OnChainOrderBookV012b  
 - [ETH Reward Token on etherscan:](https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code) ORA Incentivized Reward Token
 
 ## ETC Mainnet
 
 The UI below connects you to the live ETC mainnet contract UI:
-- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETC](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETC)
+- [https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETC](https://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETC)
 - [ETC AMISdex contract on blockscout:](https://blockscout.com/etc/mainnet/address/0xb2adCeFB5eC66e953BAf669a6e85bB8699b7336F/contracts) OnChainOrderBookV012b or later 
 - [ETC Reward Token:](https://blockscout.com/etc/mainnet/address/0xD8EBe4E6aC8d3c85E2f243e11e8B96C9B12C85Af/contracts) AMIS Incentivized Reward Token
 
 ## Offline demo
 
 Try it
-- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)
+- [https://amis-erc20.github.io/amisdex/exchange/?pairId=DEMO-ETH&vu=1](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)
 
 ## Ropsten On-Chain Order Book
 
-- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH)
+- [https://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETH)
 <img align="left" src="https://raw.githubusercontent.com/amisdex/amis-exchange-www/master/img/amisdex-preview-test.png" alt="Preview of the AmisDex Interface" style="vertical-align: bottom;">
   
 - Configured for AMISTEST-ETH https://ropsten.etherscan.io/address/0x8D9c1aA79d8e58f508180E9BF16D48f42234993e BookERC20EthV1p1 solidity v0.4.24
@@ -52,7 +53,7 @@ https://ropsten.etherscan.io/address/0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488#
 
 ## Kovan
 
-- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH)
+- [https://amis-erc20.github.io/amisdex/exchange/?pairId=AMISK-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISK-ETH)
 - https://kovan.etherscan.io/address/0xb7c7d8488966bd297bab7ca780fb1923f982a419#code  UbiRewardToken
 - https://kovan.etherscan.io/address/0x6cbb213c74b38578a6ee866a5a9864912fbc2e0e#code  BookERC20EthV1 solidity v0.4.24
 - https://kovan.etherscan.io/address/0x13cf20b0a6053ba53855e5574ad049323109b0c4#code  OnChainOrderBookV013b solidity v0.4.25
