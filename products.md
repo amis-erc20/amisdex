@@ -7,7 +7,7 @@ subtitle: Orderbooks offered on the amisdex.amisolution.net exchange
 
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
-|[AMIS-ETC](https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETC)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
+|[AMIS-ETC](https://amisdex.amisolution.net/exchange/?pairId=AMISTEST-ETC)|[AMIS](https://coingecko.com/en/coins/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |[AMIS-ETH](https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETH)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |[AXYS-ETH](https://amisdex.amisolution.net/exchange/?pairId=AXYS-ETH)|[AXYS](https://coinmarketcap.com/currencies/axys)|AXYS|
 |[BTCL-ETH](https://amisdex.amisolution.net/exchange/?pairId=BTCL-ETH)|[BTCL](https://coinmarketcap.com/currencies/btcl)|BTCL|
@@ -38,6 +38,7 @@ subtitle: Orderbooks offered on the amisdex.amisolution.net exchange
 |Book|CoinMarketCap / Website|Description|
 |------|----|----|
 |[DEMO-ETH](https://amisdex.amisolution.net/exchange/?pairId=DEMO-ETH&vu=1)|n/a|simulated demonstration exchange|
+|[AMISTEST-ETC](https://amisdex.amisolution.net/exchange/?pairId=AMISTEST-ETC)|[AMIS](https://coingecko.com/en/coins/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Try placing a trade with Amis on "ETC" LIVE NET|
 |[AMISTEST-ETH](https://amisdex.amisolution.net/exchange/?pairId=AMISTEST-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
 |[AMISTEST1-ETH](https://amisdex.amisolution.net/exchange/?pairId=AMISTEST1-ETH)|n/a|Try placing a trade with Amis on "Ropsten" testnet|
 |[AMISTEST2-ETH](https://amisdex.amisolution.net/exchange/?pairId=AMISTEST2-ETH)|n/a|Try our latest contract release and place an AMIS trade on "Ropsten" testnet|
