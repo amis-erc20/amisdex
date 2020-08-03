@@ -28450,11 +28450,12 @@
                 abiArray: s
             }
         },
-        "AMIS-ETC": {
+        "AMISTEST-ETC": {
             networkId: "61",
             bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f",
             bookAbiArray: a,
             symbol: "AMIS-ETC",
+            bookStartBlock: 8826137,
             priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
