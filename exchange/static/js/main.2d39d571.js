@@ -15855,7 +15855,7 @@
                 u[c] = arguments[c];
             return n = i = o(this, (e = t.__proto__ || Object.getPrototypeOf(t)).call.apply(e, [this].concat(u))),
             i.computeBaseUrl = function() {
-                return "Ropsten Test Network" === i.props.networkName ? "https://ropsten.etherscan.io/tx/" : "Main Network" === i.props.networkName ? "https://etherscan.io/tx/" : "Rinkeby Test Network" === i.props.networkName ? "https://rinkeby.etherscan.io/rx/" : void 0
+                return "ETC Main Network" === i.props.networkName ? "https://blockscout.com/etc/mainnet/tx/" : "Ropsten Test Network" === i.props.networkName ? "https://ropsten.etherscan.io/tx/" : "Main Network" === i.props.networkName ? "https://etherscan.io/tx/" : "Rinkeby Test Network" === i.props.networkName ? "https://rinkeby.etherscan.io/rx/" : void 0
             }
             ,
             a = n,
@@ -28450,18 +28450,18 @@
                 abiArray: s
             }
         },
-        "AMISTEST-ETC": {
-            networkId: "61",
-            bookAddress: "0x8D9c1aA79d8e58f508180E9BF16D48f42234993e",
+        "AMISTEST-ETC: {
+            networkId: "3",
+            bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f",
             bookAbiArray: a,
             symbol: "AMISTEST-ETC",
             priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
-                symbol: "AMISTEST",
+                symbol: "AMIS",
                 decimals: 9,
-                name: "AMIS (Morden TEST)",
-                address: "0x949bed886c739f1a3273629b3320db0c5024c719",
+                name: "AMIS (ETC Live TEST)",
+                address: "0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af",
                 abiArray: s,
                 minInitialSize: "0.0001"
             },
@@ -28469,7 +28469,7 @@
                 tradableType: "Ether",
                 symbol: "ETH",
                 decimals: 18,
-                name: "Test Ether (Morden)",
+                name: "Live Ether (ETC)",
                 minInitialSize: "0.001"
             },
             rwrd: {
@@ -33116,7 +33116,7 @@
                     bsStyle: "info"
                 }, this.props.pairInfo.base.notes) : void 0, "LIVE" === this.props.pairInfo.liveness ? s.a.createElement(u.x, {
                     bsStyle: "info"
-                }, "Make sure you are trading the correct token - symbols are not always unique!", s.a.createElement("br", null), "The address of this token is:", s.a.createElement("a", {
+                }, "Make sure you are trading the correct ETH token - symbols are not always unique!", s.a.createElement("br", null), "The address of this ETH token is:", s.a.createElement("a", {
                     className: "tinyHex",
                     href: "https://etherscan.io/token/" + this.props.pairInfo.base.address,
                     target: "_blank",
@@ -33126,9 +33126,9 @@
                 }, s.a.createElement("strong", null, "This is a test token!!"), s.a.createElement("br", null), s.a.createElement("br", null), "You will need ROPSTEN ETH to be able to make trades. You can come some for free from the Ropsten faucet ", s.a.createElement("a", {
                     href: "http://faucet.ropsten.be:3001/",
                     target: "_blank"
-                }, "here"), s.a.createElement("br", null), s.a.createElement("br", null), "The address of this token is:", s.a.createElement("a", {
+                }, "here"), s.a.createElement("br", null), s.a.createElement("br", null), "The address of this ETC token is:", s.a.createElement("a", {
                     className: "tinyHex",
-                    href: "https://ropsten.etherscan.io/token/" + this.props.pairInfo.base.address,
+                    href: "https://blockscout.com/etc/mainnet/tokens/" + this.props.pairInfo.base.address,
                     target: "_blank",
                     rel: "noopener noreferrer"
                 }, this.props.pairInfo.base.address), ".", s.a.createElement("br", null), s.a.createElement("br", null), "Careful though - never send tokens (or ether) to a token address - that's not how it works and you won't get them back.") : void 0, this.props.pairInfo.newerVersion ? s.a.createElement(u.x, {
