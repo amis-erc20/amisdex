@@ -28450,11 +28450,11 @@
                 abiArray: s
             }
         },
-        "AMISTEST-ETC": {
+        "AMIS-ETC": {
             networkId: "61",
             bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f",
             bookAbiArray: a,
-            symbol: "AMISTEST-ETC",
+            symbol: "AMIS-ETC",
             priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
@@ -28626,7 +28626,7 @@
                 symbol: "ETH",
                 decimals: 18,
                 name: "Ether",
-                minInitialSize: "0.001"
+                minInitialSize: "0.01"
             },
             rwrd: {
                 tradableType: "ERC20",
@@ -33413,19 +33413,19 @@
                 return s.a.createElement("div", null, i.props.bridgeStatus.bridgeMode ? !i.props.bridgeStatus.canReadBook && i.props.bridgeStatus.withinGracePeriod ? s.a.createElement(u.x, {
                     header: "Connecting to Ethereum network ...",
                     bsStyle: "info"
-                }, s.a.createElement("p", null, "Waiting for MetaMask, Mist, INFURA or other web3 provider to initialise ...")) : i.props.bridgeStatus.web3Present ? i.props.bridgeStatus.unsupportedNetwork ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "Waiting for MetaMask, Cipher, Nifty, Trust Wallet, Saturn Wallet, Mist or other web3 provider to initialise ...")) : i.props.bridgeStatus.web3Present ? i.props.bridgeStatus.unsupportedNetwork ? s.a.createElement(u.x, {
                     header: "Unsupported Ethereum Network",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "This book is only available on the ", i.props.bridgeStatus.targetNetworkName, "."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. Metamask, Mist, Ledger). You might need to reload this page.")) : i.props.bridgeStatus.networkChanged ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "This book is only available on the ", i.props.bridgeStatus.targetNetworkName, "."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. Metamask, , Cipher, Nifty, Trust Wallet, Saturn Wallet, Mist, Ledger). You might need to reload this page.")) : i.props.bridgeStatus.networkChanged ? s.a.createElement(u.x, {
                     header: "Ethereum Network Changed",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "You seem to have changed Ethereum Network."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. MetaMask, Mist, Ledger) back to ", i.props.bridgeStatus.chosenSupportedNetworkName, ", or reload this page to pick up the new network.")) : i.props.bridgeStatus.accountLocked && i.props.bridgeStatus.mightReadAccountOrders ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "You seem to have changed Ethereum Network."), s.a.createElement("p", null, "Try changing Ethereum Network in your Ethereum Client (e.g. MetaMask, , Cipher, Nifty, Trust Wallet, Saturn Wallet, Mist, Ledger) back to ", i.props.bridgeStatus.chosenSupportedNetworkName, ", or reload this page to pick up the new network.")) : i.props.bridgeStatus.accountLocked && i.props.bridgeStatus.mightReadAccountOrders ? s.a.createElement(u.x, {
                     header: "Ethereum Account Locked",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "We need to know which Ethereum account to use."), s.a.createElement("p", null, "Try unlocking your Ethereum Client (e.g. MetaMask, Mist, Ledger). You might need to reload this page after unlocking.")) : i.props.bridgeStatus.accountChanged ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "We need to know which Ethereum account to use."), s.a.createElement("p", null, "Try unlocking your Ethereum Client (e.g. MetaMask, , Cipher, Nifty, Trust Wallet, Saturn Wallet, Mist, Ledger). You might need to reload this page after unlocking.")) : i.props.bridgeStatus.accountChanged ? s.a.createElement(u.x, {
                     header: "Ethereum Account Changed",
                     bsStyle: "danger"
-                }, s.a.createElement("p", null, "You seem to have changed Ethereum Account."), s.a.createElement("p", null, "Try changing Ethereum Account in your Ethereum Client (e.g. Metamask, Mist, Ledger) back to ", i.props.bridgeStatus.chosenAccount, ", or reload this page to pick up the new account.")) : i.props.bridgeStatus.mightReadAccountOrders ? i.props.bridgeStatus.canReadBook && i.props.bridgeStatus.canReadAccountOrders ? i.props.ownEthBalance && new m(i.props.ownEthBalance).lt("0.005") ? s.a.createElement(u.x, {
+                }, s.a.createElement("p", null, "You seem to have changed Ethereum Account."), s.a.createElement("p", null, "Try changing Ethereum Account in your Ethereum Client (e.g. Metamask, , Cipher, Nifty, Trust Wallet, Saturn Wallet, Mist, Ledger) back to ", i.props.bridgeStatus.chosenAccount, ", or reload this page to pick up the new account.")) : i.props.bridgeStatus.mightReadAccountOrders ? i.props.bridgeStatus.canReadBook && i.props.bridgeStatus.canReadAccountOrders ? i.props.ownEthBalance && new m(i.props.ownEthBalance).lt("0.005") ? s.a.createElement(u.x, {
                     header: "Low Ethereum Balance",
                     bsStyle: "danger"
                 }, s.a.createElement("p", null, 'Your Ethereum account may not have enough ETH to pay for "gas" fees.'), s.a.createElement("p", null, "Gas fees are needed to send Ethereum transactions, such as when placing orders or making payments."), s.a.createElement("p", null, "Consider topping up your ", i.props.bridgeStatus.chosenAccount, " account with more Ether (", s.a.createElement("i", null, "not"), " your book contract balance).")) : void 0 : s.a.createElement(u.x, {
@@ -34817,7 +34817,7 @@
                     onClick: this.handleAlertDismiss
                 }, "OK")))), s.a.createElement(u.r, {
                     controlId: "collection"
-                }, s.a.createElement(u.w, null, "Step 2"), s.a.createElement(u.u, null, "Once the current approved amount is correct, tell the book contract to ", s.a.createElement("i", null, "collect"), " the ", this.props.symbol, " tokens you approved:"), s.a.createElement(c.a, {
+                }, s.a.createElement(u.w, null, "Step 2"), s.a.createElement(u.u, null, "Once the current approved amount is correct, tell the smart orderbook contract to ", s.a.createElement("i", null, "collect"), " the ", this.props.symbol, " tokens you approved:"), s.a.createElement(c.a, {
                     bsStyle: "primary",
                     onClick: this.handleCollectClick,
                     text: "Collect Approved " + this.props.symbol
@@ -34925,11 +34925,11 @@
                 }, s.a.createElement(u.w, null, "Step 0"), s.a.createElement(u.u, null, "If you have ", this.props.symbol, " in another exchange/wallet, send them to your ", this.props.chosenAccount, " account first.", s.a.createElement("br", null), "Currently it has ", this.props.ownAmount, " ", this.props.symbol, ".")), s.a.createElement(u.r, {
                     controlId: "depAmount",
                     validationState: this.getValidationResult()[0]
-                }, s.a.createElement(u.w, null, "Step 1"), s.a.createElement(u.u, null, "This will send ", this.props.symbol, " from your account to the AMIS Exchange smart contract for this book so you can buy tokens:"), s.a.createElement(u.s, null, s.a.createElement(u.s.Addon, null, "Deposit Amount"), s.a.createElement(u.t, {
+                }, s.a.createElement(u.w, null, "Step 1"), s.a.createElement(u.u, null, "This will send ", this.props.symbol, " from your account to the AMISdex smart contract for this orderbook so you can buy tokens:"), s.a.createElement(u.s, null, s.a.createElement(u.s.Addon, null, "Deposit Amount"), s.a.createElement(u.t, {
                     type: "text",
                     value: this.state.amount,
                     onChange: this.handleAmountChange
-                }), s.a.createElement(u.s.Addon, null, this.props.symbol)), s.a.createElement(u.u, null, "Don't forget to leave some ETH in your account to pay for gas fees."), s.a.createElement("div", {
+                }), s.a.createElement(u.s.Addon, null, this.props.symbol)), s.a.createElement(u.u, null, "Don't forget to leave some ETC/ETH in your account to pay for gas fees."), s.a.createElement("div", {
                     role: "toolbar",
                     class: "btn-toolbar"
                 }, s.a.createElement(c.a, {
@@ -35463,7 +35463,7 @@
             }
             ,
             this.warn = function(e) {
-                console.log("UbiTok Bridge Warning:", e)
+                console.log("AMISdex Bridge Warning:", e)
             }
             ,
             this.getInitialStatus = function() {
@@ -35795,31 +35795,31 @@
             ,
             this.submitDepositBaseApprove = function(e, t) {
                 if (i.checkCanSendTransactions(t)) {
-                    i.sendTransaction("approve tokens for the book contract", "approved amount change", i.baseToken.address, i.baseToken.approve, [i.bookContract.address, u.a.encodeBaseAmount(e, i.baseDecimals).valueOf()], new p(0), 25e4, t)
+                    i.sendTransaction("approve tokens for the orderbook smart contract", "approved amount change", i.baseToken.address, i.baseToken.approve, [i.bookContract.address, u.a.encodeBaseAmount(e, i.baseDecimals).valueOf()], new p(0), 25e4, t)
                 }
             }
             ,
             this.submitDepositBaseCollect = function(e) {
                 if (i.checkCanSendTransactions(e)) {
-                    i.sendTransaction("finish depositing tokens to the book contract", "token balance change", i.bookContract.address, i.bookContract.transferFromBase, [], new p(0), 25e4, e)
+                    i.sendTransaction("finish depositing tokens to the  orderbook smart contract", "token balance change", i.bookContract.address, i.bookContract.transferFromBase, [], new p(0), 25e4, e)
                 }
             }
             ,
             this.submitWithdrawBaseTransfer = function(e, t) {
                 if (i.checkCanSendTransactions(t)) {
-                    i.sendTransaction("withdraw tokens from the book contract", "token balance change", i.bookContract.address, i.bookContract.transferBase, [u.a.encodeBaseAmount(e, i.baseDecimals).valueOf()], new p(0), 25e4, t)
+                    i.sendTransaction("withdraw tokens from the  orderbook smart contract", "token balance change", i.bookContract.address, i.bookContract.transferBase, [u.a.encodeBaseAmount(e, i.baseDecimals).valueOf()], new p(0), 25e4, t)
                 }
             }
             ,
             this.submitDepositCntr = function(e, t) {
                 if (i.checkCanSendTransactions(t)) {
-                    i.sendTransaction("deposit ETH into the book contract", "balance change", i.bookContract.address, i.bookContract.depositCntr, [], u.a.encodeCntrAmount(e), 15e4, t)
+                    i.sendTransaction("deposit ETC/ETH into the  orderbook smart contract", "balance change", i.bookContract.address, i.bookContract.depositCntr, [], u.a.encodeCntrAmount(e), 15e4, t)
                 }
             }
             ,
             this.submitWithdrawCntr = function(e, t) {
                 if (i.checkCanSendTransactions(t)) {
-                    i.sendTransaction("withdraw ETH from the book contract", "balance change", i.bookContract.address, i.bookContract.withdrawCntr, [u.a.encodeCntrAmount(e).valueOf()], new p(0), 15e4, t)
+                    i.sendTransaction("withdraw ETC/ETH from the  orderbook smart contract", "balance change", i.bookContract.address, i.bookContract.withdrawCntr, [u.a.encodeCntrAmount(e).valueOf()], new p(0), 15e4, t)
                 }
             }
             ,
