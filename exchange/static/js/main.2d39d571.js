@@ -28460,7 +28460,7 @@
                 tradableType: "ERC20",
                 symbol: "AMIS",
                 decimals: 9,
-                name: "AMIS (ETC Live TEST)",
+                name: "AMIS (ETC Live)",
                 address: "0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af",
                 abiArray: s,
                 minInitialSize: "0.0001"
@@ -28470,14 +28470,14 @@
                 symbol: "ETH",
                 decimals: 18,
                 name: "Live Ether (ETC)",
-                minInitialSize: "0.001"
+                minInitialSize: "0.01"
             },
             rwrd: {
                 tradableType: "ERC20",
-                symbol: "CRSW",
-                decimals: 18,
-                name: "CRSW Token",
-                address: "0x58743FD1b94184B9D451fbC06C8AD4Fe7b53A488",
+                symbol: "AMIS",
+                decimals: 9,
+                name: "AMIS (ETC Live)",
+                address: "0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af",
                 abiArray: s
             }
         },
@@ -33116,9 +33116,10 @@
                     bsStyle: "info"
                 }, this.props.pairInfo.base.notes) : void 0, "LIVE" === this.props.pairInfo.liveness ? s.a.createElement(u.x, {
                     bsStyle: "info"
-                }, "Make sure you are trading the correct ETH token - symbols are not always unique!", s.a.createElement("br", null), "The address of this ETH token is:", s.a.createElement("a", {
+                }, "Make sure you are trading the correct ETC/ETH token - symbols are not always unique!", s.a.createElement("br", null), "The address of this ETC/ETH token is:", s.a.createElement("a", {
                     className: "tinyHex",
                     href: "https://etherscan.io/token/" + this.props.pairInfo.base.address,
+                    href: "blockscout.com/etc/mainnet/tokens/" + this.props.pairInfo.base.address,
                     target: "_blank",
                     rel: "noopener noreferrer"
                 }, this.props.pairInfo.base.address), ".", s.a.createElement("br", null), "Careful though - never send tokens (or ether) to a token address - that's not how it works and you won't get them back.") : void 0, "TEST" === this.props.pairInfo.liveness ? s.a.createElement(u.x, {
