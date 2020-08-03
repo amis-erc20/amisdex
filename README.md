@@ -15,18 +15,26 @@ What is Amidex ?
 
 # Amisdex
 
-Amisdex is a Web front end designed to interact with a dedicated smart contract acting as the On-chain orderbook featuring builtin order matching engine powered by the ethereum blockchain. 
+Amisdex is a Web front end designed to interact with a dedicated smart contract acting as the On-chain orderbook featuring builtin order matching engine powered by the ETC / ETH blockchain(s). 
 * static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH
 * git clone https://github.com/amis-erc20/amisdex
 
-## Mainnet
+## ETH Mainnet
 
-The URL below connects you to the live mainnet contract UI:
+The URL below connects you to the live ETH mainnet contract UI:
 - [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETH)
-- https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code OnChainOrderBookV012b  
-- https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code ORA Incentivized Reward Token
+- [ETH AMISdex contract:](https://etherscan.io/address/0x2cc69cAaaAa6114ddf48F4DdB2AdB9c5d5d3e048#code) OnChainOrderBookV012b  
+- [ETH Reward Token on etherscan:](https://etherscan.io/address/0x4875ae0e3fdfb9779d92b4c7bc5ce852434442b3#code) ORA Incentivized Reward Token
+
+## ETC Mainnet
+
+The UI below connects you to the live ETC mainnet contract UI:
+- [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMIS-ETC](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=AMISTEST-ETC)
+- [ETC AMISdex contract on blockscout:](https://blockscout.com/etc/mainnet/address/0xb2adCeFB5eC66e953BAf669a6e85bB8699b7336F/contracts) OnChainOrderBookV012b or later 
+- [ETC Reward Token:](https://blockscout.com/etc/mainnet/address/0xD8EBe4E6aC8d3c85E2f243e11e8B96C9B12C85Af/contracts) AMIS Incentivized Reward Token
 
 ## Offline demo
+
 Try it
 - [https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)
 
