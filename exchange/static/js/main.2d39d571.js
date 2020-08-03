@@ -28450,8 +28450,8 @@
                 abiArray: s
             }
         },
-        "AMISTEST-ETC: {
-            networkId: "3",
+        "AMISTEST-ETC": {
+            networkId: "61",
             bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f",
             bookAbiArray: a,
             symbol: "AMISTEST-ETC",
