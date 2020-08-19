@@ -32,7 +32,8 @@ The URL below connects you to the live ETH mainnet contract UI:
 The UI below connects you to the live ETC mainnet contract UI:
 - [https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETC](https://amis-erc20.github.io/amisdex/exchange/?pairId=AMISTEST-ETC)
 - [ETC AMISdex contract on blockscout:](https://blockscout.com/etc/mainnet/address/0xb2adCeFB5eC66e953BAf669a6e85bB8699b7336F/contracts) OnChainOrderBookV012b or later 
-- [ETC Reward Token:](https://blockscout.com/etc/mainnet/address/0xD8EBe4E6aC8d3c85E2f243e11e8B96C9B12C85Af/contracts) AMIS Incentivized Reward Token
+- [AMIS Reward Token:](https://blockscout.com/etc/mainnet/address/0xD8EBe4E6aC8d3c85E2f243e11e8B96C9B12C85Af/contracts) AMIS Incentivized Reward Token
+- [WETC:](https://blockscout.com/etc/mainnet/address/0xEF3DA599a7C0dE182F4AF53032e57CC5D06551a7) Wrapped ETC
 
 ## Offline demo
 
