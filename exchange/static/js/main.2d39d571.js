@@ -28487,6 +28487,38 @@
                 abiArray: s
             }
         },
+        "AMISTEST-XDAI": {
+            networkId: "100",
+            bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f",
+            bookAbiArray: a,
+            symbol: "AMIS-XDAI",
+            bookStartBlock: 8826137,
+            priceRangeAdjustment: -2,
+            base: {
+                tradableType: "ERC20",
+                symbol: "AMIS",
+                decimals: 9,
+                name: "AMIS ON xDai",
+                address: "0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93",
+                abiArray: s,
+                minInitialSize: "0.0001"
+            },
+            cntr: {
+                tradableType: "Ether",
+                symbol: "ETH",
+                decimals: 18,
+                name: "Live Ether (xDai)",
+                minInitialSize: "0.01"
+            },
+            rwrd: {
+                tradableType: "ERC20",
+                symbol: "DEXP",
+                decimals: 18,
+                name: "AMISDEXP (xDai Live)",
+                address: "0x9c374cc5da1d7ee668d4080287b104b865f3089e",
+                abiArray: s
+            }
+        },        
         "AMISTEST-ETH": {
             networkId: "3",
             bookAddress: "0x8D9c1aA79d8e58f508180E9BF16D48f42234993e",
@@ -35735,11 +35767,15 @@
                 if ("1" === t)
                     return "https://mainnet.infura.io/" + e;
                 if ("2" === t)
-                    return "https://classic.blockscout.com/" + e;
+                    return "https://blockscout.com/";
                 if ("4" === t)
                     return "https://rinkeby.infura.io/" + e;
+                if ("42" === t)
+                    return "https://kovan.infura.io/" + e;                
                 if ("61" === t)
-                    return "https://classic.blockscout.com/" ;
+                    return "https://www.ethercluster.com/etc" ;
+                if ("100" === t)
+                    return "https://rpc.xdaichain.com/" + e;
                 throw new Error("unknown networkId " + t)
             }
             ,
