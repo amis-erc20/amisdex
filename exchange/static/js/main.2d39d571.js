@@ -28473,7 +28473,7 @@
             },
             cntr: {
                 tradableType: "Ether",
-                symbol: "ETH",
+                symbol: "ETC",
                 decimals: 18,
                 name: "Live Ether (ETC)",
                 minInitialSize: "0.01"
@@ -28506,7 +28506,7 @@
             },
             cntr: {
                 tradableType: "Ether",
-                symbol: "ETH",
+                symbol: "XDAI",
                 decimals: 18,
                 name: "Live Ether (xDai)",
                 minInitialSize: "0.01"
@@ -28694,9 +28694,9 @@
             },
             quote: {
                 tradableType: "Ether",
-                symbol: "ETH",
+                symbol: "ETC",
                 decimals: 18,
-                name: "Ether",
+                name: "Ether Classic",
                 minInitialSize: "0.01"
             },
             rwrd: {
