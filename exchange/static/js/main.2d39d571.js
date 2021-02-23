@@ -33181,32 +33181,35 @@
                     hover: !0
                 }, s.a.createElement("thead", null, s.a.createElement("tr", null, s.a.createElement("th", null), s.a.createElement("th", null, "Base"), s.a.createElement("th", null, "Counter"))), s.a.createElement("tbody", null, s.a.createElement("tr", null, s.a.createElement("td", null, "Symbol"), "LIVE" === this.props.pairInfo.liveness ? s.a.createElement("td", null, s.a.createElement("a", {
                     href: "https://etherscan.io/token/" + this.props.pairInfo.base.address,
+                    href: "blockscout.com/etc/mainnet/tokens/" + this.props.pairInfo.base.address,
+                    href: "blockscout.com/poa/xdai/tokens/" + this.props.pairInfo.base.address,                    
                     target: "_blank",
                     rel: "noopener noreferrer"
                 }, this.props.pairInfo.base.symbol)) : s.a.createElement("td", null, this.props.pairInfo.base.symbol), s.a.createElement("td", null, this.props.pairInfo.cntr.symbol)), s.a.createElement("tr", null, s.a.createElement("td", null, "Name"), s.a.createElement("td", null, this.props.pairInfo.base.name), s.a.createElement("td", null, this.props.pairInfo.cntr.name)), s.a.createElement("tr", null, s.a.createElement("td", null, "Type"), s.a.createElement("td", null, this.props.pairInfo.base.tradableType), s.a.createElement("td", null, this.props.pairInfo.cntr.tradableType)), s.a.createElement("tr", null, s.a.createElement("td", null, "Minimum Order"), s.a.createElement("td", null, this.props.pairInfo.base.minInitialSize), s.a.createElement("td", null, this.props.pairInfo.cntr.minInitialSize)))), this.props.pairInfo.base.notes ? s.a.createElement(u.x, {
                     bsStyle: "info"
                 }, this.props.pairInfo.base.notes) : void 0, "LIVE" === this.props.pairInfo.liveness ? s.a.createElement(u.x, {
                     bsStyle: "info"
-                }, "Make sure you are trading the correct token - symbols are not always unique!", s.a.createElement("br", null), "The address of this ETC/ETH token is:", s.a.createElement("a", {
+                }, "Make sure you are trading the correct token - symbols are not always unique!", s.a.createElement("br", null), "The address of this token is:", s.a.createElement("a", {
                     className: "tinyHex",
                     href: "https://etherscan.io/token/" + this.props.pairInfo.base.address,
                     href: "blockscout.com/etc/mainnet/tokens/" + this.props.pairInfo.base.address,
+                    href: "blockscout.com/poa/xdai/tokens/" + this.props.pairInfo.base.address,
                     target: "_blank",
                     rel: "noopener noreferrer"
                 }, this.props.pairInfo.base.address), ".", s.a.createElement("br", null), "Careful though - never send tokens (or ether) to a token address - that's not how it works and you won't get them back.") : void 0, "TEST" === this.props.pairInfo.liveness ? s.a.createElement(u.x, {
                     bsStyle: "info"
-                }, s.a.createElement("strong", null, "This is a test token!!"), s.a.createElement("br", null), s.a.createElement("br", null), "You will need ROPSTEN ETH to be able to make trades. You can come some for free from the Ropsten faucet ", s.a.createElement("a", {
+                }, s.a.createElement("strong", null, "This is a test token!!"), s.a.createElement("br", null), s.a.createElement("br", null), "You will need ROPSTEN ETH to be able to make trades. You can get some for free from the Ropsten faucet ", s.a.createElement("a", {
                     href: "http://faucet.ropsten.be:3001/",
                     target: "_blank"
-                }, "here"), s.a.createElement("br", null), s.a.createElement("br", null), "The address of this ETC token is:", s.a.createElement("a", {
+                }, "here"), s.a.createElement("br", null), s.a.createElement("br", null), "The address of this token is:", s.a.createElement("a", {
                     className: "tinyHex",
-                    href: "https://blockscout.com/etc/mainnet/tokens/" + this.props.pairInfo.base.address,
+                    href: "https://ropsten.etherscan.io/token/" + this.props.pairInfo.base.address,
                     target: "_blank",
                     rel: "noopener noreferrer"
                 }, this.props.pairInfo.base.address), ".", s.a.createElement("br", null), s.a.createElement("br", null), "Careful though - never send tokens (or ether) to a token address - that's not how it works and you won't get them back.") : void 0, this.props.pairInfo.newerVersion ? s.a.createElement(u.x, {
                     header: "Deprecated Book Contract",
                     bsStyle: "danger"
-                }, "This book contract has been replaced by ", s.a.createElement("a", {
+                }, "This book contract has been/will be replaced by ", s.a.createElement("a", {
                     href: "/exchange/?pairId=" + this.props.pairInfo.newerVersion,
                     target: "_blank",
                     rel: "noopener noreferrer"
