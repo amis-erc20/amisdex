@@ -28350,6 +28350,11 @@
             name: "ETC Network",
             liveness: "LIVE"
         },
+        100: {
+            networkId: "100",
+            name: "xDai Network",
+            liveness: "LIVE"
+        },        
         1: {
             networkId: "1",
             name: "Main Network",
@@ -28606,6 +28611,38 @@
                 abiArray: s
             }
         },
+        "AMIS-XDAI": {
+            networkId: "100",
+            bookAddress: "0x62C9B359Ed48191fcD5Ab5DE3E026C7182b38AC7", // 0xe4cdd296ac85c7d8477988f582d457e638349947
+            bookAbiArray: i,
+            symbol: "AMIS-XDAI",
+            bookStartBlock: 14683461 , // 14683461 ,
+            priceRangeAdjustment: -2,
+            base: {
+                tradableType: "ERC20",
+                symbol: "AMIS",
+                decimals: 9,
+                name: "AMIS",
+                address: "0xD51e1ddD116fFF9A71C1B8FEEb58113aFa2B4d93",
+                abiArray: s,
+                minInitialSize: "0.001"
+            },
+            quote: {
+                tradableType: "Ether",
+                symbol: "ETH",
+                decimals: 18,
+                name: "Ether",
+                minInitialSize: "0.01"
+            },
+            rwrd: {
+                tradableType: "ERC20",
+                symbol: "DEXP",
+                decimals: 18,
+                name: "AMISDEXP",
+                address: "0x9C374CC5da1D7EE668D4080287b104B865F3089e",
+                abiArray: s
+            }
+        },        
         "AMIS-ETC": {
             networkId: "61",
             bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f", // 0xe4cdd296ac85c7d8477988f582d457e638349947
