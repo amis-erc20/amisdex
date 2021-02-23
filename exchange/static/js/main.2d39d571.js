@@ -15855,7 +15855,7 @@
                 u[c] = arguments[c];
             return n = i = o(this, (e = t.__proto__ || Object.getPrototypeOf(t)).call.apply(e, [this].concat(u))),
             i.computeBaseUrl = function() {
-                return "ETC Main Network" === i.props.networkName ? "https://blockscout.com/etc/mainnet/tx/" : "Ropsten Test Network" === i.props.networkName ? "https://ropsten.etherscan.io/tx/" : "Main Network" === i.props.networkName ? "https://etherscan.io/tx/" : "Rinkeby Test Network" === i.props.networkName ? "https://rinkeby.etherscan.io/rx/" : void 0
+                return "ETC Main Network" === i.props.networkName ? "https://blockscout.com/etc/mainnet/tx/" : "Ropsten Test Network" === i.props.networkName ? "https://ropsten.etherscan.io/tx/" : "xDai Network" === i.props.networkName ? "https://blockscout.com/poa/xdai/tx/" : "Main Network" === i.props.networkName ? "https://etherscan.io/tx/" : "Rinkeby Test Network" === i.props.networkName ? "https://rinkeby.etherscan.io/rx/" : void 0
             }
             ,
             a = n,
@@ -28487,12 +28487,13 @@
                 abiArray: s
             }
         },
-        "AMISTEST-XDAI": {
+        "AMIS-XDAI.v1": {
             networkId: "100",
             bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f",
             bookAbiArray: a,
-            symbol: "AMIS-XDAI",
-            bookStartBlock: 8826137,
+            symbol: "AMIS-XDAI.v1",
+            bookStartBlock: 14683434,
+            newerVersion: "AMISTEST-XDAI",
             priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
@@ -28643,19 +28644,19 @@
                 abiArray: s
             }
         },
-        "AMIS-XDAI": {
+        "AMISTEST-XDAI": {
             networkId: "100",
-            bookAddress: "0x62C9B359Ed48191fcD5Ab5DE3E026C7182b38AC7", // 0xe4cdd296ac85c7d8477988f582d457e638349947
+            bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f", // 
             bookAbiArray: i,
             symbol: "AMIS-XDAI",
-            bookStartBlock: 14683461 , // 14683461 ,
+            bookStartBlock: 14683434 , // 14683434 ,
             priceRangeAdjustment: -2,
             base: {
                 tradableType: "ERC20",
                 symbol: "AMIS",
                 decimals: 9,
                 name: "AMIS",
-                address: "0xD51e1ddD116fFF9A71C1B8FEEb58113aFa2B4d93",
+                address: "0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93",
                 abiArray: s,
                 minInitialSize: "0.001"
             },
@@ -33186,7 +33187,7 @@
                     bsStyle: "info"
                 }, this.props.pairInfo.base.notes) : void 0, "LIVE" === this.props.pairInfo.liveness ? s.a.createElement(u.x, {
                     bsStyle: "info"
-                }, "Make sure you are trading the correct ETC/ETH token - symbols are not always unique!", s.a.createElement("br", null), "The address of this ETC/ETH token is:", s.a.createElement("a", {
+                }, "Make sure you are trading the correct token - symbols are not always unique!", s.a.createElement("br", null), "The address of this ETC/ETH token is:", s.a.createElement("a", {
                     className: "tinyHex",
                     href: "https://etherscan.io/token/" + this.props.pairInfo.base.address,
                     href: "blockscout.com/etc/mainnet/tokens/" + this.props.pairInfo.base.address,
@@ -35887,13 +35888,13 @@
             ,
             this.submitDepositCntr = function(e, t) {
                 if (i.checkCanSendTransactions(t)) {
-                    i.sendTransaction("deposit ETC/ETH into the  orderbook smart contract", "balance change", i.bookContract.address, i.bookContract.depositCntr, [], u.a.encodeCntrAmount(e), 15e4, t)
+                    i.sendTransaction("deposit XDAI/ETC/ETH into the  orderbook smart contract", "balance change", i.bookContract.address, i.bookContract.depositCntr, [], u.a.encodeCntrAmount(e), 15e4, t)
                 }
             }
             ,
             this.submitWithdrawCntr = function(e, t) {
                 if (i.checkCanSendTransactions(t)) {
-                    i.sendTransaction("withdraw ETC/ETH from the  orderbook smart contract", "balance change", i.bookContract.address, i.bookContract.withdrawCntr, [u.a.encodeCntrAmount(e).valueOf()], new p(0), 15e4, t)
+                    i.sendTransaction("withdraw XDAI/ETC/ETH from the  orderbook smart contract", "balance change", i.bookContract.address, i.bookContract.withdrawCntr, [u.a.encodeCntrAmount(e).valueOf()], new p(0), 15e4, t)
                 }
             }
             ,
