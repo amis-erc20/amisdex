@@ -5,8 +5,9 @@ subtitle: Orderbooks offered on the amisdex.amisolution.net exchange
 ---
 ## Trading Pairs Available At Launch
 
-|Book|CoinMarketCap / Website|Description|
+|Pair|CoinMarketCap / Website|Description|
 |------|----|----|
+|[AMIS-XDAI](https://amisdex.amisolution.net/exchange/?pairId=AMIS-XDAI.v1)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |[AMIS-ETC](https://amisdex.amisolution.net/exchange/?pairId=AMISTEST-ETC)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |[AMIS-ETH](https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETH)|[AMIS](https://coinmarketcap.com/currencies/amis/)/[AMIS](https://github.com/amisolution/ERC20-AMIS/)|Asset Management Instrument Solution|
 |[AXYS-ETH](https://amisdex.amisolution.net/exchange/?pairId=AXYS-ETH)|[AXYS](https://coinmarketcap.com/currencies/axys)|AXYS|
