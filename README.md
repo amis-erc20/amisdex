@@ -16,6 +16,7 @@ What is Amidex ?
 # Amisdex
 
 Amisdex is a Web front end designed to interact with a dedicated smart contract acting as the On-chain orderbook featuring builtin order matching engine powered by the ETC / ETH blockchain(s). 
+* static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-XDAI
 * static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETH
 * static content behind https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-ETC
 * git clone https://github.com/amis-erc20/amisdex
@@ -37,11 +38,11 @@ The UI below connects you to the live ETC mainnet contract UI:
 
 ## xDai Mainnet
 
-The UI below connects you to the live ETC mainnet contract UI:
-- [https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-XDAI](https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-XDAI)
-- [xDai AMISdex contract on blockscout:](https://blockscout.com/poa/xdai/address/0x62C9B359Ed48191fcD5Ab5DE3E026C7182b38AC7) OnChainOrderBookV013b  
-- [AMISDEXP Reward Token:](https://blockscout.com/poa/xdai/address/0x9C374CC5da1D7EE668D4080287b104B865F3089e) AMISDEXP Incentivized Reward Token
-- [xDai Faucet:](https://blockscout.com/poa/xdai/faucet) Get free xDai from the xDai Faucet
+The UI below connects you to the live XDAI mainnet contract UI:
+- Get 0.01 xDai from the xDai Faucet [xDai Faucet:](https://blockscout.com/poa/xdai/faucet) 
+- Verify [xDai AMISdex contract on blockscout:](https://blockscout.com/poa/xdai/address/0x62C9B359Ed48191fcD5Ab5DE3E026C7182b38AC7) OnChainOrderBookV013b  
+- Verify [AMISDEXP Reward Token:](https://blockscout.com/poa/xdai/address/0x9C374CC5da1D7EE668D4080287b104B865F3089e) AMISDEXP Incentivized Reward Token
+- Navigate to [https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-XDAI](https://amis-erc20.github.io/amisdex/exchange/?pairId=AMIS-XDAI) and try Amisdex by trading the AMIS-xDai pair for free !.
 
 ## Offline demo
 
