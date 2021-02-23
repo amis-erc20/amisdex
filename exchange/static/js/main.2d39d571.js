@@ -28489,7 +28489,7 @@
         },
         "AMIS-XDAI.v1": {
             networkId: "100",
-            bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f",
+            bookAddress: "0x62c9b359ed48191fcd5ab5de3e026c7182b38ac7",
             bookAbiArray: a,
             symbol: "AMIS-XDAI.v1",
             bookStartBlock: 14683434,
@@ -28646,7 +28646,7 @@
         },
         "AMISTEST-XDAI": {
             networkId: "100",
-            bookAddress: "0xb2adcefb5ec66e953baf669a6e85bb8699b7336f", // 
+            bookAddress: "0x62c9b359ed48191fcd5ab5de3e026c7182b38ac7", // 
             bookAbiArray: i,
             symbol: "AMIS-XDAI",
             bookStartBlock: 14683434 , // 14683434 ,
